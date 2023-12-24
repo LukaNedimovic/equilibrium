@@ -1,0 +1,4 @@
+TITLE:Sign Up
+OPTIONS:Username,Password,Name,Surname,Date of birth,Residence,Profession
+WIDTH:100
+HEIGHT:50

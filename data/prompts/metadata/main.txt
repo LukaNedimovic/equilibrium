@@ -1,0 +1,4 @@
+TITLE:Welcome
+OPTIONS:Login,Sign up,Exit
+WIDTH:100
+HEIGHT:50
