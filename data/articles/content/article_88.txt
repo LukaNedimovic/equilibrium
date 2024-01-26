@@ -1,0 +1,1 @@
+Coder checks your Drupal code against coding standards and other best practices. It can also fix coding standard violations for you with the phpcbf command from PHP_CodeSniffer, see the installation instructions and usage examples. Those checks apply to all versions of Drupal, so you can use Coder 8.x-2.x to check Drupal 7 code.

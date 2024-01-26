@@ -1,0 +1,1 @@
+Here is an interesting experiment about redesigning the Spotify UI with HTML, CSS and few lines of javascript . The interface is responsive and very similar to the official app look. Coded by Adam Lowenthal . View on Codepen Posted on in and tagged Code stuff , app , music , player . HTML Players This post has been viewed 1628 times.

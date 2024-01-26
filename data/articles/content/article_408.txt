@@ -1,0 +1,1 @@
+The features module enables the capture and management of features in Drupal. A feature is a collection of Drupal entities which taken together satisfy a certain use-case. Features provides a UI and API for taking different site building components from modules with exportables and bundling them together in a single feature module.

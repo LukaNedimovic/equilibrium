@@ -7,7 +7,7 @@ class PlaceholderPrompt(Prompt):
         self.next_prompt = None
 
     def show(self):
-        ui = open(self.ui_path)
+        ui = open(self.ui_path, encoding="utf8")
         lines = ui.readlines()
         for line in lines:
             print(line, end="")

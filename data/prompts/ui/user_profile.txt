@@ -1,0 +1,11 @@
+╔══════════════ EQUILIBRIUM ════════════════╗
+║                                           ║
+║                                           ║
+║           (1) Add New Article             ║
+║           (2) Search Articles             ║
+║           (3) My Articles                 ║
+║           (4) Saved Articles              ║
+║           (5) Exit                        ║
+║                                           ║
+║                                           ║
+╚═══════════════════════════════════════════╝

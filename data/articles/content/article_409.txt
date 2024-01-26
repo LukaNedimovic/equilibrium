@@ -1,0 +1,1 @@
+The XML sitemap module creates a sitemap that conforms to the sitemaps.org specification. This helps search engines to more intelligently crawl a website and keep their results up to date. The sitemap created by the module can be automatically submitted to Ask, Google, Bing (formerly Windows Live Search), and Yahoo!

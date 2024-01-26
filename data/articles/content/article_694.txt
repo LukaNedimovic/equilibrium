@@ -1,0 +1,1 @@
+Google Compute Engine (GCE), the infrastructure service of Google Cloud Platform, is a late entrant in the market. Amazon EC2 was announced in 2006 while Microsoft added VMs to Azure in 2012. Google announced the general availability of GCE only in late 2013. Source: Google Despite being the laggard in the IaaS [...]

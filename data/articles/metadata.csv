@@ -1,0 +1,781 @@
+id,author_id,title,tags,likes,dislikes,views,reading_time,formatted
+0,0,"Ethereum, a Virtual Currency, Enables Transactions That Rival Bitcoin's","['ethereum', 'bitcoin', 'system', 'said', 'blockchain']","0","0","1",3.45,False
+1,0,"Bitcoin Future: When GBPcoin of Branson Wins Over USDcoin of Trump","['latest', 'check', 'rate', 'note', 'ceo']","0","0","0",1.00,False
+2,0,"Google Data Center 360° Tour","['center', 'video', 'google', 'data', 'google cloud']","0","0","0",0.87,False
+3,0,"IBM Wants to "Evolve the Internet" With Blockchain Technology","['ibm', 'blockchain', 'bitcoin', 'linux', 'technology']","0","0","0",4.39,False
+4,0,"IEEE to Talk Blockchain at Cloud Computing Oxford-Con - CoinDesk","['blockchain', 'computing', 'cloud', 'event', 'conference']","0","0","0",0.90,False
+5,0,"Banks Need To Collaborate With Bitcoin and Fintech Developers","['fintech', 'banks', 'bitcoin', 'banking', 'financial']","0","0","0",2.24,False
+6,0,"Blockchain Technology Could Put Bank Auditors Out of Work","['blockchain', 'financial', 'trust', 'bitcoin', 'system']","0","0","0",2.36,False
+7,0,"Why Decentralized Conglomerates Will Scale Better than Bitcoin - Interview with OpenLedger CEO - Bitcoin News","['bitcoin', 'organization', 'currency', 'organizations', 'interest']","0","0","0",5.49,False
+8,0,"The Rise And Growth of Ethereum Gets Mainstream Coverage","['ethereum', 'bitcoin', 'currency', 'said', 'value']","0","0","0",2.55,False
+9,0,"Setting Up HTTP(S) Load Balancing","['load', 'load balancing', 'http', 'balancing', 'backend']","0","0","0",5.93,False
+10,0,"Setting Up SSL proxy for Google Cloud Load Balancing","['ssl', 'proxy', 'health', 'instances', 'load']","0","0","0",12.28,False
+11,0,"NTT to buy Dell's services division for $3.05 billion","['billion', 'systems', 'company', 'markets', 'services']","0","0","0",0.87,False
+12,0,"Good riddance, gig economy: Uber, Ayn Rand and the awesome collapse of Silicon Valley's dream of destroying your job","['sharing', 'uber', 'demand', 'companies', 'startups']","0","0","0",7.03,False
+13,0,"The internet of a billion things | ET CIO","['internet', 'iot', 'per', 'term', 'car']","0","0","0",3.03,False
+14,0,"Five Bitcoin and Ethereum Based Projects to Watch in 2016 - Blockchain Investment Vehicles","['ethereum', 'bitcoin', 'money', 'git', 'energy']","0","0","0",2.52,False
+15,0,"Blockchain Smart Contracts Startup Selected By BNP Paribas Accelerator - CoinDesk","['startups', 'blockchain', 'startup', 'smart', 'develop']","0","0","0",0.59,False
+16,0,"Using Gamified Hacking Challenges To Attract New Blockchain Developers","['challenges', 'blockchain', 'uber', 'bitcoin', 'job']","0","0","0",1.94,False
+17,0,"From fine wine to lotteries: Blockchain tech takes off - BBC News","['blockchain', 'smart', 'says', 'financial', 'ethereum']","0","0","0",3.11,False
+18,0,"Google DeepMind Is Now Analysing Magic And Hearthstone Cards","['card', 'text', 'games', 'language', 'code']","0","0","0",1.75,False
+19,0,"How OKCupid Changed Hiring Forever.","['data science', 'data', 'potential', 'much', 'science']","0","0","0",2.85,False
+20,0,"The Hierarchy of Engagement - Greylock Perspectives","['products', 'product', 'thinking', 'companies', 'framework']","0","0","0",0.90,False
+21,0,"Welcome Google Cloud Platform!","['node js', 'js', 'node', 'platform', 'google']","0","0","0",0.89,False
+22,0,"Hopper raises $16 million for a travel app that tells you the best time to fly","['app', 'million', 'percent', 'american', 'company']","0","0","0",2.51,False
+23,0,"MedStar Washington Potentially Affected By Bitcoin Ransomware","['bitcoin', 'details', 'center', 'computer', 'internet']","0","0","0",1.90,False
+24,0,"CoinFest 2016: Uniting the World's Bitcoiners","['bitcoin', 'events', 'community', 'focused', 'startups']","0","0","0",1.96,False
+25,0,"French Senate Will Debate on Bitcoin Regulation","['bitcoin', 'currency', 'money', 'digital', 'exchange']","0","0","0",0.56,False
+26,0,"Bitcoin Wallets as Swiss Bank Accounts: The Developer's Perspective","['bitcoin', 'encryption', 'wallet', 'security', 'believe']","0","0","0",4.54,False
+27,0,"Slice Labs raises $3.9M to insure on-demand workers when they're on the job","['insurance', 'uber', 'demand', 'offer', 'said']","0","0","0",1.26,False
+28,0,"Enable the new Google Contacts for your users from the Admin console","['google', 'preview', 'users', 'feature', 'apps']","0","0","0",1.44,False
+29,0,"Study Shows Women and Minorities Are Punished for Speaking Up About Workplace Diversity","['women', 'study', 'white', 'performance', 'found']","0","0","0",1.20,False
+30,0,"Staying one step ahead at Pixar: An interview with Ed Catmull","['risk', 'people', 'going', 'think', 'want']","0","0","0",11.86,False
+31,0,"IDEO founder David Kelley talks design, Steve Jobs, cancer, and the importance of empathy","['jobs', 'said', 'know', 'design', 'think']","0","0","0",4.43,False
+32,0,"Robots are coming for your job","['human', 'data', 'pay', 'jobs', 'mining']","0","0","0",2.37,False
+33,0,"Google's AI DeepMind Turns its Gaze to Hearthstone and Magic: The Gathering - IGN","['cards', 'card', 'code', 'generation', 'language']","0","0","0",1.22,False
+34,0,"Bayesian machine learning","['model', 'data', 'machine learning', 'learning', 'machine']","0","0","0",6.31,False
+35,0,"As Microsoft US's AI chatbot turns racist troll, Japan's won't shut up about anime and hay fever","['microsoft', 'artificial intelligence', 'artificial', 'intelligence', 'internet']","0","0","0",1.47,False
+36,0,"Linux at 25: Q&A With Linus Torvalds","['linux', 'people', 'really', 'hardware', 'operating']","0","0","0",7.13,False
+37,0,"DARPA Wants to Give Radio Waves AI to Stretch Bandwidth","['researchers', 'machine', 'artificial intelligence', 'artificial', 'plan']","0","0","0",1.32,False
+38,0,"So your AI bot went haywire, should you care?","['ai', 'systems', 'choice', 'real', 'microsoft']","0","0","0",2.30,False
+39,0,"Machine Learning as a Service: How Data Science Is Hitting the Masses","['data', 'machine learning', 'learning', 'machine', 'scientists']","0","0","0",4.74,False
+40,0,"Innovate Finance Allows Bitfury to Join With Bitcoin","['bitcoin', 'fintech', 'members', 'blockchain', 'financial']","0","0","0",1.91,False
+41,0,"Blockstream Among 10 New Firms to Join Hyperledger Blockchain Project - CoinDesk","['blockchain', 'project', 'startups', 'among', 'asset']","0","0","0",0.88,False
+42,0,"The economic essentials of digital strategy","['digital', 'demand', 'customers', 'companies', 'opportunities']","0","0","0",13.32,False
+43,0,"The incestuous relations among containers orchestration tools","['docker', 'container', 'kubernetes', 'run', 'top']","0","0","0",2.59,False
+44,0,"Ã¢â‚¬â€¹Microsoft and Canonical partner to bring Ubuntu to Windows 10 | ZDNet","['windows', '10', 'microsoft', 'linux', 'run']","0","0","0",1.39,False
+45,0,"Behind Facebook Messenger's plan to be an app platform","['messenger', 'messaging', 'apps', 'facebook', 'app']","0","0","0",3.04,False
+46,0,"Google's Schmidt Says Computers Not a Threat to Humans or Jobs","['computers', 'ai', 'google', 'jobs', 'computer']","0","0","0",1.86,False
+47,0,"LukeW | Obvious Always Wins","['mobile', 'app', 'parts', 'critical', 'requires']","0","0","0",0.99,False
+48,0,"Facebook's New Mobile Test Framework Births Bottom Tab Bar Navigation Redesign For iOS 5, 6, & 7","['facebook', 'ios', 'app', 'testing', 'bar']","0","0","0",3.50,False
+49,0,"Why and How to Avoid Hamburger Menus - Louie A. - Mobile UX Design","['bar', 'pattern', 'screen', 'button', 'might']","0","0","0",4.45,False
+50,0,"How to Avoid Building Bad Products with Rapid Validation - Lean Startup Co.","['conversation', 'app', 'products', 'user', 'feedback']","0","0","0",2.04,False
+51,0,"5 open-source alternatives to Slack","['open source', 'slack', 'open', 'earlier', 'source']","0","0","0",0.94,False
+52,0,"IAM best practice guides available now","['cloud', 'resource', 'level', 'resources', 'cloud platform']","0","0","0",1.64,False
+53,0,"Google Showcases Its Cloud Efforts, Determined to Catch Up to Rivals","['google', 'cloud', 'said', 'software', 'service']","0","0","0",2.02,False
+54,0,"Acquia's Dev Desktop - a Drupal server for beginners","['drupal', 'desktop', 'server', 'computer', 'files']","0","0","0",4.35,False
+55,0,"Introducing the Google API Console","['api', 'figure', 'google', 'cloud', 'developers']","0","0","0",0.92,False
+56,0,"Task management app Asana raises $50M at a $600M valuation led by YC's Sam Altman","['company', 'million', 'series', 'businesses', 'goals']","0","0","0",1.99,False
+57,0,"Perfect Menu for Mobile Apps - UX Planet","['users', 'target', 'apps', 'mobile', 'user']","0","0","0",2.76,False
+58,0,"Paragraphs","['drupal', 'module', 'field', 'add', 'text']","0","0","0",1.35,False
+59,0,"Drupal How-To: Responsive or Adaptive Images? | Acquia","['drupal', 'images', 'image', 'module', 'solution']","0","0","0",4.53,False
+60,0,"Top 10 contributing customers","['credits', 'drupal', 'issue', 'organizations', 'organization']","0","0","0",1.14,False
+61,0,"Setting up Drupal Code Sniffer","['drupal', 'code', 'file', 'download', 'go']","0","0","0",1.87,False
+62,0,"Bitcoin Mining, Ethereum Mining, Cloud Mining: 2016 Overview","['mining', 'cloud', 'bitcoin', 'ethereum', '2016']","0","0","0",3.99,False
+63,0,"Stratumn is building a sort of Heroku for blockchain applications - The Bitcoin Channel","['blockchain', 'bitcoin', 'applications', 'transactions', 'wants']","0","0","0",0.59,False
+64,0,"Wall Street Goes Big on Bitcoin Tech","['blockchain', 'tech', 'bank', 'bitcoin', 'big']","0","0","0",0.58,False
+65,0,"Coin Center Opens Nominations for the 2016 Blockchain Awards - CoinDesk","['blockchain', 'currency', '2016', 'center', 'digital']","0","0","0",0.80,False
+66,0,"Cognitive Services-Intelligence Applications | Microsoft Azure","['intelligence', 'language', 'processing', 'natural', 'applications']","0","0","0",0.54,False
+67,0,"Google admits original enterprise cloud strategy was wrong, why it's gone in a different direction - TechRepublic","['cloud', 'google', 'cloud platform', 'google cloud', 'platform']","0","0","0",2.21,False
+68,0,"Fooling The Machine","['white', 'research', 'says', 'networks', 'us']","0","0","0",3.18,False
+69,0,"Spotify's Event Delivery - The Road to the Cloud (Part III)","['event', 'window', 'events', 'job', 'data']","0","0","0",5.50,False
+70,0,"What's the Best Cloud? Probably GCP","['gcp', 'cloud', 'aws', 'technology', 'google']","0","0","0",22.28,False
+71,0,"Microsoft Adds Ethereum to Windows Platform For Over 3 Million Developers - CoinDesk","['ethereum', 'microsoft', 'developers', 'said', 'blockchain']","0","0","0",3.04,False
+72,0,"Google Cloud Platform for AWS Professionals","['cloud', 'compute', 'aws', 'google', 'google cloud']","0","0","0",21.55,False
+73,0,"Fooling The Machine","['white', 'research', 'says', 'networks', 'us']","0","0","0",3.18,False
+74,0,"Fooling The Machine","['white', 'research', 'says', 'networks', 'us']","0","0","0",3.18,False
+75,0,"Fooling The Machine","['white', 'research', 'says', 'networks', 'us']","0","0","0",3.18,False
+76,0,"Calculating and searching 500 billion digits of Pi","['local', 'instance', 'export', 'interface', 'compute']","0","0","0",1.75,False
+77,0,"The Internet of Things","['data', 'information', 'internet', 'energy', 'systems']","0","0","0",8.32,False
+78,0,"Apple launches Safari Technology Preview, a browser for developers including experimental web features","['preview', 'browser', 'apple', 'technology', 'web']","0","0","0",0.40,False
+79,0,"Google Is Finally Redesigning Its Biggest Cash Cow: AdWords","['google', 'design', 'words', 'customers', 'across']","0","0","0",2.68,False
+80,0,"Microsoft Build: the 10 most important announcements","['microsoft', 'windows', 'bots', 'apps', 'bot']","0","0","0",5.65,False
+81,0,"Foxconn finalises Sharp takeover - BBC News","['deal', 'technology', 'display', 'would', 'said']","0","0","0",0.71,False
+82,0,"Spotify chooses Google Cloud Platform to power data infrastructure","['cloud', 'google cloud', 'google', 'data', 'cloud platform']","0","0","0",1.99,False
+83,0,"New blog from Dries: A "MAP" for accelerating Drupal 8 adoption","['drupal', 'modules', 'map', 'community', 'module']","0","0","0",1.05,False
+84,0,"The Future of Pen: Windows Ink","['windows', '10', 'day', 'microsoft', 'customers']","0","0","0",1.40,False
+85,0,"Windows 10 Anniversary SDK is bringing exciting opportunities to developers","['windows', 'apps', '10', 'build', 'developers']","0","0","0",4.18,False
+86,0,"Microsoft HoloLens and Lowe's, working to redefine your next home renovation","['options', 'home', 'physical', 'customers', 'view']","0","0","0",1.94,False
+87,0,"How We Migrated Data into Drupal from Four Different Sources Using the Migrate Module | Acquia","['data', 'drupal', 'method', 'module', 'site']","0","0","0",2.63,False
+88,0,"Coder | Drupal.org","['drupal', 'code', 'practices', 'versions', 'command']","0","0","0",0.17,False
+89,0,"Spotify Raises $1 Billion in Debt Financing","['deal', 'billion', 'group', 'clients', 'people']","0","0","0",0.23,False
+90,0,"Introducing a new developer show "Machine Learning: Recipes for New Developers","['machine learning', 'learning', 'machine', 'developer', 'show']","0","0","0",0.60,False
+91,0,"What Happens When You Combine Artificial Intelligence and Satellite Imagery","['data', 'facebook', 'companies', 'billion', 'says']","0","0","0",2.35,False
+92,0,"Microsoft's new AI tools help developers build smart apps and bots","['bot', 'microsoft', 'ai', 'natural', 'intelligence']","0","0","0",2.10,False
+93,0,"Developers can run Bash Shell and user-mode Ubuntu Linux binaries on Windows 10","['windows', 'linux', 'developer', 'run', 'tools']","0","0","0",2.06,False
+94,0,"Solidity Available in Visual Studio - Ethereum Blog","['ethereum', 'microsoft', 'blockchain', 'studio', 'visual']","0","0","0",0.75,False
+95,0,"DTCC and Digital Asset Holdings to Test Blockchain Solutions for the $2.6 Trillion Repo Market","['asset', 'digital', 'distributed', 'financial', 'technology']","0","0","0",2.71,False
+96,0,"Governments vs Bitcoin: A Fight For Control","['bitcoin', 'currency', 'control', 'bank', 'china']","0","0","0",2.64,False
+97,0,"Cashila Announces Convenient Buy and Sell Feature For Ethereum","['ethereum', 'bitcoin', 'buy', 'service', 'users']","0","0","0",2.36,False
+98,0,"Bitit Launches to Solve Bitcoin Biggest Issues - Accessibility and Fraud","['bitcoin', 'buy', 'cards', '000', 'card']","0","0","0",2.24,False
+99,0,"Growing Global Electricity Consumption Is Not Just Bitcoin's Fault","['bitcoin', 'mining', 'energy', 'hardware', 'total']","0","0","0",3.47,False
+100,0,"EB124 - Rune Christensen: Maker Dao Ethereum's Decentralized Central Bank by Epicenter Bitcoin","['ethereum', 'insurance', 'markets', 'bank', 'bitcoin']","0","0","0",0.17,False
+101,0,"Decentralized Options Exchange Etheropt Uses Automated Ethereum Smart Contract","['ethereum', 'exchange', 'platforms', 'options', 'currency']","0","0","0",1.41,False
+102,0,"8 of the Sweetest Words for Candy","['word', 'color', 'words', 'came', 'used']","0","0","0",0.32,False
+103,0,"Visual C++ for Linux Development","['linux', 'project', 'visual', 'iot', 'add']","0","0","0",3.42,False
+104,0,"Microsoft: Windows Phone is not the place to do "new and exciting things" - MSPoweruser","['windows', 'microsoft', 'phone', '2016', 'customers']","0","0","0",1.15,False
+105,0,"The 7 Coolest Virtual Reality Experiences Made with Hololens So Far","['reality', 'virtual', 'allows', 'technology', 'room']","0","0","0",1.47,False
+106,0,"Amazon Widens Its Push-Button E-Commerce Horizons","['button', 'amazon', 'customers', 'said', 'products']","0","0","0",2.76,False
+107,0,"Standing Under Your Code: The Seven Stages of Digital Transformation","['developers', 'developer', 'digital', 'businesses', 'industry']","0","0","0",1.80,False
+108,0,"Containers are not VMs","['containers', 'docker', 'container', 'application', 'run']","0","0","0",2.88,False
+109,0,"New blog from Dries: How should you decouple Drupal?","['drupal', 'javascript', 'content', 'node js', 'client']","0","0","0",2.73,False
+110,0,"US Bank Regulator to Examine Distributed Ledgers in FinTech Framework Push - CoinDesk","['fintech', 'office', 'technology', 'innovation', 'blockchain']","0","0","0",0.78,False
+111,0,"You Can Soon Pay For Everyday Items Using Just Bitcoin And a Mobile Phone","['bitcoin', 'pay', 'card', 'app', 'cards']","0","0","0",1.58,False
+112,0,"Eyeing Volume, Asian Exchanges Add Support for Ether Trading - CoinDesk","['ethereum', 'digital', 'support', 'currency', 'interest']","0","0","0",1.45,False
+113,0,"Practical End-to-End Testing with Protractor","['tests', 'test', 'testing', 'page', 'element']","0","0","0",8.86,False
+114,0,"How Mature is Your Organization when it Comes to UX?","['organization', 'level', 'user', 'experience', 'organizations']","0","0","0",3.07,False
+115,0,"Building A Better Workforce: 5 Talent Trends Worth Watching","['employees', 'management', 'organizations', 'people', 'business']","0","0","0",7.52,False
+116,0,"The 17 equations that changed the world","['changed', 'book', 'context', 'human', 'world']","0","0","0",0.62,False
+117,0,"Hotpatching a C Function on x86","['function', 'page', 'program', 'going', 'target']","0","0","0",3.46,False
+118,0,"C/C++ extension for Visual Studio Code","['code', 'studio', 'visual', 'file', 'experience']","0","0","0",4.98,False
+119,0,"April Fools - Introducing Gmail Mic Drop","['email', 'everyone', 'button', 'easier', 'last']","0","0","0",0.72,False
+120,0,"Introducing Style Detection for Google Cloud Vision API","['style', 'vision', 'cloud', 'api', 'google cloud']","0","0","0",1.07,False
+121,0,"Google shares data center security and design best practices","['data', 'center', 'security', 'operations', 'google']","0","0","0",3.78,False
+122,0,"Snapchat shares security best practices for running on GCP","['resources', 'gcp', 'access', 'projects', 'company']","0","0","0",1.41,False
+123,0,"No-Cost RHEL Developer Subscription now available","['red', 'linux', 'enterprise', 'developer', 'development']","0","0","0",1.57,False
+124,0,"Google Cloud Datastore simplifies pricing, cuts cost dramatically for most use-cases","['pricing', 'per', 'costs', 'method', 'cloud']","0","0","0",2.05,False
+125,0,"Announcing Docker Hub Classic","['docker', 'images', 'image', 'anyone', 'internet']","0","0","0",0.81,False
+126,0,"Is the Internet of Things in Your Home? Or on Your Body? [INFOGRAPHIC]","['iot', 'companies', 'home', 'devices', 'article']","0","0","0",0.98,False
+127,0,"Get your apps and games ready for space with Google Play | Android Developers Blog","['games', 'play', 'google', 'space', 'apps']","0","0","0",0.64,False
+128,0,"How Indra Nooyi Turned Design Thinking Into Strategy: An Interview with PepsiCo's CEO","['design', 'products', 'consumers', 'product', 'women']","0","0","0",9.11,False
+129,0,"Xamarin for Everyone","['studio', 'visual', 'insights', 'apps', 'microsoft']","0","0","0",2.44,False
+130,0,"Your Docker Agenda for April","['docker', 'containers', 'talk', 'join', 'container']","0","0","0",12.77,False
+131,0,"Slack raises $200m at $3.8b valuation for business messaging","['slack', 'capital', 'million', 'company', 'teams']","0","0","0",0.79,False
+132,0,"Million-dollar babies","['ai', 'tech', 'research', 'university', 'machine learning']","0","0","0",3.41,False
+133,0,"'Machine learning' is a revolution as big as the internet or personal computers","['machine learning', 'machine', 'learning', 'program', 'algorithm']","0","0","0",1.18,False
+134,0,"How to grow your startup with no budget","['marketing', 'startup', 'company', 'testing', 'product']","0","0","0",2.92,False
+135,0,"Building a high-throughput data science machine","['data science', 'data', 'science', 'scientists', 'organizations']","0","0","0",3.26,False
+136,0,"The gig economy as a driver of innovation","['innovation', 'community', 'energy', 'co', 'manager']","0","0","0",2.08,False
+137,0,"Deep learning will be huge - and here's who will dominate it","['ai', 'deep learning', 'deep', 'learning', 'startups']","0","0","0",3.14,False
+138,0,"The inside story of how Amazon created Echo, the next billion dollar business no one saw coming","['amazon', 'music', 'team', 'voice', 'early']","0","0","0",5.30,False
+139,0,"Chromebase for meetings makes video-conferencing personal and simple","['video', 'management', 'devices', 'device', 'easy']","0","0","0",1.59,False
+140,0,"Microsoft is taking its cues from Facebook as it totally shakes up Office","['microsoft', 'office', 'facebook', 'data', 'automatically']","0","0","0",2.48,False
+141,0,"How to approach machine learning as a non-technical person","['task', 'metrics', 'understand', 'technology', 'business']","0","0","0",2.80,False
+142,0,"Lilly Wachowski Makes First Public Appearance Since Coming Out as Transgender","['support', 'previously', 'media', 'love', 'announced']","0","0","0",0.99,False
+143,0,"Platforms are the real powerhouses in Silicon Valley's business landscape","['platforms', 'value', 'platform', 'store', 'building']","0","0","0",3.02,False
+144,0,"2.3.0 Release Notes","['issue', 'query', 'log', 'node', 'check']","0","0","0",1.57,False
+145,0,"Scanning hyperspace: how to tune machine learning models","['random', 'values', 'accuracy', 'search', 'model']","0","0","0",9.30,False
+146,0,"This is the flying chainsaw drone you knew was coming","['taken', 'real', 'target', 'yes', 'make sure']","0","0","0",0.78,False
+147,0,"A programming language for living cells","['language', 'programming', 'says', 'researchers', 'different']","0","0","0",2.50,False
+148,0,"How Google's AI paved the way for the next generation of bots","['bots', 'google', 'apps', 'card', 'cards']","0","0","0",3.06,False
+149,0,"How Machine Learning Will Change Our Relationship to Food","['system', 'attention', 'researchers', 'processing', 'probably']","0","0","0",1.54,False
+150,0,"CoreOS's rkt Container Engine Hits 1.0","['container', 'docker', 'image', 'images', 'specs']","0","0","0",1.01,False
+151,0,"Free online Game AI Classes - Apex Game Tools","['game', 'ai', 'online', 'free', 'session']","0","0","0",0.46,False
+152,0,"R3 Blockchain Consortium Partners with Microsoft - CoinDesk","['microsoft', 'members', 'blockchain', 'tests', 'ibm']","0","0","0",1.22,False
+153,0,"Panama Papers Scandal Shows How Bitcoin Could Stop Corruption","['bitcoin', 'address', 'fully', 'payments', 'could']","0","0","0",2.26,False
+154,0,"Venture Capitalists Inject Nearly Half a Billion in Bitcoin","['bitcoin', 'blockchain', 'technology', 'startups', 'fintech']","0","0","0",1.62,False
+155,0,"Bitcoin For A Tesla Model 3...Yes That Happened","['bitcoin', 'model', 'sales', 'maybe', 'account']","0","0","0",1.14,False
+156,0,"Blockchain CEO's Business Advice on Bitcoin Startups","['bitcoin', 'startups', 'startup', 'blockchain', 'job']","0","0","0",1.66,False
+157,0,"Ethereum and Bitcoin Are Market Leaders But Not Competitors","['ethereum', 'bitcoin', 'blockchain', 'currency', 'digital']","0","0","0",1.39,False
+158,0,"Google Failure, Ethereum Leaps, ECB Giveout in Cointelegraph Daily Digest","['ethereum', 'bitcoin', 'customer', 'tool', 'google']","0","0","0",1.52,False
+159,0,"Ethereum Partners with R3CEV on Lizardcoin, Bringing Together the Best of Centralized Finance and Blockchain Technology - Ethereum Blog","['ethereum', 'banks', 'blockchain', 'technology', 'accounts']","0","0","0",2.10,False
+160,0,"Microsoft Continues to Embrace Ethereum & Bitcoin - Bitcoin News","['bitcoin', 'ethereum', 'microsoft', 'currency', 'blockchain']","0","0","0",1.87,False
+161,0,"Netflix says Geography, Age, and Gender are Garbage for Predicting Taste","['someone', 'groups', 'data', 'content', 'almost']","0","0","0",1.02,False
+162,0,"OpenBazaar is Open for Business","['trade', 'release', 'bitcoin', 'software', 'network']","0","0","0",1.29,False
+163,0,"Slack and Uber's parting proves when apps unite, it isn't always a smooth ride","['slack', 'uber', 'chat', 'employees', 'game']","0","0","0",1.23,False
+164,0,"Google Drive Is Scary-Smart at Searching Your Images","['drive', 'google', 'text', 'search', 'results']","0","0","0",0.59,False
+165,0,"Running Kubernetes Locally via Docker","['docker', 'cluster', 'kubernetes', 'os', 'containers']","0","0","0",1.84,False
+166,0,"How people using Slack to organise their grocery lists is helping it grow","['slack', 'people', 'said', 'email', 'lot']","0","0","0",2.23,False
+167,0,"NASA gives away the data from an Earth-mapping spacecraft","['worth', 'wanted', 'data', 'away', 'previously']","0","0","0",0.31,False
+168,0,"Google Cloud Datastore gets faster cross-platform API","['api', 'cloud', 'google cloud', 'client', 'google']","0","0","0",1.31,False
+169,0,"Google Cloud collaborates with Kinvey for HIPAA-compliant mobile Backend-as-a-Service","['backend', 'data', 'enterprise', 'mobile', 'cloud']","0","0","0",2.03,False
+170,0,"PostgreSQL Bloat: origins, monitoring and managing","['aws', 'session', 'test', 'id', 'table']","0","0","0",8.67,False
+171,0,"Fileless Malware - A Behavioural Analysis Of Kovter Persistence","['process', 'system', 'string', 'key', 'script']","0","0","0",2.84,False
+172,0,"Cello","['design', 'output', 'algorithms', 'function', 'science']","0","0","0",6.09,False
+173,0,"Tetra Pak Cheese and Powder Systems acquires Laude","['products', 'hard', 'said', 'focus', 'systems']","0","0","0",1.07,False
+174,0,"The Rise of the API-based SaaS","['api', 'product', 'based', 'pricing', 'solution']","0","0","0",5.33,False
+175,0,"Australian Bitcoin Entrepreneur Launches Robo-Advice Platform","['bitcoin', 'financial', 'platform', 'future', 'fintech']","0","0","0",1.78,False
+176,0,"Microsoft Strikes Partnership With Banks on Blockchain Tech","['microsoft', 'blockchain', 'banks', 'said', 'technology']","0","0","0",1.43,False
+177,0,"Dries Buytaert","['site', 'content', 'module', 'drupal', 'modules']","0","0","0",4.17,False
+178,0,"How Reporters Pulled Off the Panama Papers, the Biggest Leak in Whistleblower History","['documents', 'says', 'person', 'source', 'public']","0","0","0",5.15,False
+179,0,"Auka brings Google Cloud-powered banking to Europe","['payments', 'banks', 'banking', 'mobile', 'google cloud']","0","0","0",1.28,False
+180,0,"Microsoft's mobile problem may not be a problem at all","['windows', 'microsoft', 'mobile', 'position', 'phone']","0","0","0",2.31,False
+181,0,"Google search now provides access to basic healthcare information in India","['information', 'google', 'health', 'search', 'access']","0","0","0",2.07,False
+182,0,"Writing good code: how to reduce the cognitive load of your code","['code', 'good', 'names', 'possible', 'keep']","0","0","0",3.89,False
+183,0,"Building a technical career path at Spotify","['organization', 'framework', 'wanted', 'company', 'group']","0","0","0",7.32,False
+184,0,"Ikea ponders the future of retail with virtual reality pilot app","['reality', 'vr', 'virtual', 'customers', 'app']","0","0","0",0.88,False
+185,0,"Chat app Kik launches a bot store and anyone can make bots for it","['bots', 'bot', 'chat', 'apps', 'users']","0","0","0",3.68,False
+186,0,"Open Source Giant Red Hat Launches First Blockchain Initiative - CoinDesk","['red', 'blockchain', 'solutions', 'market', 'said']","0","0","0",2.50,False
+187,0,"How to use Windows 10's Task View and virtual desktops","['windows', 'desktop', 'task', 'view', 'virtual']","0","0","0",3.70,False
+188,0,"How to write a hypothesis","['test', 'page', 'insights', 'testing', 'results']","0","0","0",5.95,False
+189,0,"I've got standards - which one do you want? [UPDATE 5 APRIL 2016]","['bank', 'payments', 'banks', 'global', 'blockchain']","0","0","0",4.99,False
+190,0,"Mozilla Founder Unveils 'Brave Ledger' with Bitcoin Micropayments","['bitcoin', 'ad', 'users', 'browser', 'developers']","0","0","0",2.93,False
+191,0,"IBM Watson is Working to Bring AI to the Blockchain - CoinDesk","['blockchain', 'ibm', 'devices', 'internet', 'device']","0","0","0",2.67,False
+192,0,"Saving the World Through Crypto: The Humanitarian Blockchain","['blockchain', 'problems', 'global', 'world', 'technology']","0","0","0",3.60,False
+193,0,"Proof of Individuality, the New-Age Security on Blockchain - NEWSBTC","['protocol', 'network', 'virtual', 'based', 'conference']","0","0","0",1.86,False
+194,0,"Gold Backed Digix Raises Millions in Hours on Ethereum Blockchain Crowdsale","['ethereum', 'bar', 'asset', 'smart', 'physical']","0","0","0",2.98,False
+195,0,"20 lines of code that will beat A/B testing every time","['button', 'click', 'choice', 'algorithm', 'choose']","0","0","0",3.86,False
+196,0,"How To Avoid Equidistant HSV Colors","['color', 'space', 'lab', 'js', 'component']","0","0","0",3.40,False
+197,0,"Nvidia announces a supercomputer aimed at deep learning and AI","['deep', 'deep learning', 'neural', 'data', 'cluster']","0","0","0",1.28,False
+198,0,"The Future of Business is Design","['design', 'business', 'brand', 'customer', 'experience']","0","0","0",4.16,False
+199,0,"New Trend Briefing from TrendWatching | THE FUTURE OF BETTERMENT","['people', 'self', 'search', 'future', 'health']","0","0","0",0.56,False
+200,0,"Better together: New Microsoft integrations for easier collaboration","['office', 'files', 'microsoft', 'com', 'file']","0","0","0",1.46,False
+201,0,"Sphero's BB-8 toy will now watch The Force Awakens with you","['feature', 'app', 'go', 'look', 'need']","0","0","0",0.75,False
+202,0,"Managing ambient type definitions and dealing with the","['type', 'error', 'javascript', 'file', 'demo']","0","0","0",4.34,False
+203,0,"State of Drupal 2016 survey | Dries Buytaert","['drupal', 'site', 'developers', 'module', 'minutes']","0","0","0",0.17,False
+204,0,"5 Ways to Save Time During Research | Viget","['testing', 'research', 'hours', 'media', 'social']","0","0","0",2.94,False
+205,0,"Here's How Google Makes Sure It (Almost) Never Goes Down","['google', 'percent', 'operations', 'software', 'says']","0","0","0",5.47,False
+206,0,"Google and Rackspace co-develop open server architecture based on new IBM POWER9 hardware","['open', 'architecture', 'server', 'google', 'co']","0","0","0",0.73,False
+207,0,"Google Cloud Platform: The smart person's guide - TechRepublic","['cloud', 'google', 'cloud platform', 'google cloud', 'platform']","0","0","0",4.88,False
+208,0,"Startup aims to use machine learning to make mobile notifications good","['notifications', 'phone', 'much', 'could', 'servers']","0","0","0",2.39,False
+209,0,"Segment helps businesses integrate third-party sources into their data pipelines","['data', 'analytics', 'sources', 'customer', 'tools']","0","0","0",1.10,False
+210,0,"Doing Data Science Right - Your Most Common Questions Answered","['data', 'data science', 'science', 'scientists', 'product']","0","0","0",12.79,False
+211,0,"Bash on Ubuntu on Windows - Download Now!","['windows', 'linux', 'issues', 'please', 'build']","0","0","0",1.46,False
+212,0,"Aligning text smartly in CSS","['text', 'center', 'css', 'elements', 'container']","0","0","0",1.02,False
+213,0,"A new look for Google Play family of apps","['play', 'google', 'family', 'apps', 'games']","0","0","0",0.41,False
+214,0,"Here's the first full trailer for the next Star Wars movie, Rogue One","['story', 'series', 'next', 'days', 'release']","0","0","0",0.66,False
+215,0,"This CEO Runs a Billion-Dollar Company With No Offices or Email","['percent', 'email', 'company', 'open', 'everyone']","0","0","0",2.63,False
+216,0,"The insurance tech equation","['insurance', 'consumers', 'business', 'customer', 'digital']","0","0","0",4.65,False
+217,0,"Three Platforms Bringing Bitcoin To Social Messaging Users","['bitcoin', 'currency', 'messaging', 'receive', 'social']","0","0","0",1.29,False
+218,0,"Red Hat OpenShift Blockchain Initiative Focuses On Ethereum","['blockchain', 'red', 'fintech', 'technology', 'development']","0","0","0",1.93,False
+219,0,"Google may be considering Swift for use on Android","['android', 'java', 'google', 'facebook', 'uber']","0","0","0",3.75,False
+220,0,"9 Big Takeaways from R3's New Distributed Ledger Debut - CoinDesk","['blockchain', 'financial', 'bitcoin', 'solve', 'distributed']","0","0","0",5.96,False
+221,0,"Could Blockchain Have Protected the Bosses Implicated in the Panama Papers?","['blockchain', 'ibm', 'based', 'leaders', 'system']","0","0","0",1.01,False
+222,0,"How Inflation Is Stealing Your Money: Can Cryptocurrency Solve Inflation on a Global Scale?","['bitcoin', 'money', 'currency', 'banks', 'term']","0","0","0",3.40,False
+223,0,"Research at Google","['research', 'levels', 'members', 'capabilities', 'necessary']","0","0","0",0.17,False
+224,0,"Android development: What I wish I had known earlier - balpha.de","['event', 'android', 'view', 'events', 'method']","0","0","0",8.87,False
+225,0,"Don't Store Data in the Application Object","['application', 'object', 'activity', 'app', 'user']","0","0","0",1.82,False
+226,0,"5 Skills You Need to Become a Machine Learning Engineer | Udacity","['machine learning', 'learning', 'machine', 'etc', 'algorithms']","0","0","0",4.83,False
+227,0,"When Is the Singularity? Probably Not in Your Lifetime","['intelligence', 'artificial intelligence', 'machines', 'artificial', 'human']","0","0","0",1.74,False
+228,0,"Java 9 Early Access: A Hands-on Session with JShell - The Java REPL | Takipi Blog","['java', 'access', 'features', 'project', 'early']","0","0","0",4.36,False
+229,0,"Android Studio 2.0 | Android Developers Blog","['android', 'studio', 'app', 'run', 'test']","0","0","0",4.38,False
+230,0,"Why Erlang Matters","['processes', 'memory', 'computer', 'process', 'hardware']","0","0","0",4.29,False
+231,0,"Google will stop supporting physical Google Wallet cards on June 30","['wallet', 'google', 'physical', 'card', 'cards']","0","0","0",0.68,False
+232,0,"LendingRobot Lets You Monitor Your Portfolio Performance On Prosper, Lending Club, And Funding Circle","['performance', 'across', 'accounts', 'money', 'problem']","0","0","0",0.79,False
+233,0,"Worldwide Ops in Minutes with DataStax & Cloud","['cluster', 'cloud', 'cloud platform', 'google', 'deployment']","0","0","0",1.87,False
+234,0,"Contactless soaring in popularity","['face', '30', 'payments', 'payment', 'transactions']","0","0","0",0.79,False
+235,0,"How Starbucks became so successful at coaxing consumers to pay with smartphones","['pay', 'apple', 'mobile', 'payments', 'credit']","0","0","0",2.34,False
+236,0,"Top Asset Tracking Software: The 52 Best Tools and Software Solutions to Track Your Company's Vital Physical Assets","['asset', 'tracking', 'assets', 'management', 'cost']","0","0","0",12.08,False
+237,0,"Atom Bank launches app-only savings account for iPhones","['bank', 'customers', 'account', 'via', 'fixed']","0","0","0",0.52,False
+238,0,"Infographic Dutch Fintech Scene - HollandFintech.com","['fintech', 'start', 'financial', 'payments', 'analytics']","0","0","0",0.48,False
+239,0,"Building a digital-banking business","['digital', 'banks', 'banking', 'customer', 'bank']","0","0","0",7.71,False
+240,0,"How Did Q1 2016 Go for FinTech Around the World?","['fintech', 'companies', '2016', 'banking', 'total']","0","0","0",1.64,False
+241,0,"Don't take my money: Why mobile payments haven't taken off - yet","['pay', 'payments', 'card', 'mobile', 'percent']","0","0","0",2.81,False
+242,0,"Facebook wants to change the way Australians use mobile banking","['banks', 'facebook', 'payments', 'bank', 'said']","0","0","0",1.96,False
+243,0,"Barclays finally launches Apple Pay | The Memo","['pay', 'apple', 'bank', 'april', '2016']","0","0","0",0.93,False
+244,0,"Blispay, the financing program for SMBs, raises $12.75M in seed funding","['card', 'six', 'percent', 'interest', 'pay']","0","0","0",1.82,False
+245,0,"PayPal's Braintree Auth launches to bring its payments platform to more merchants, service providers","['payments', 'cards', 'commerce', 'platforms', 'platform']","0","0","0",1.48,False
+246,0,"Amazon takes on PayPal and others with launch of Amazon Payments partner program","['amazon', 'payments', 'pay', 'offer', 'websites']","0","0","0",1.60,False
+247,0,"Why Barclays Sees Banking's Future as an Information Business","['banking', 'bank', 'services', 'banks', 'data']","0","0","0",2.61,False
+248,0,"Failing model: Plastic Card + App and Card + Wallet Players?","['card', 'wallet', 'payments', 'cards', 'app']","0","0","0",3.89,False
+249,0,"Digital banking: Mondo hopes to become the Google or Facebook of the sector","['bank', 'banks', 'card', 'customers', 'banking']","0","0","0",2.20,False
+250,0,"The Man Selling Shovels in the Machine-Learning Gold Rush","['learning', 'deep learning', 'deep', 'hardware', 'machine']","0","0","0",1.41,False
+251,0,"Using artificial intelligence to revolutionize diabetes treatment","['health', 'ai', 'artificial intelligence', 'artificial', 'intelligence']","0","0","0",3.34,False
+252,0,"Machine learning is a poor fit for most businesses","['learning', 'machine learning', 'machine', 'cloud', 'fit']","0","0","0",0.86,False
+253,0,"Monitor your application errors with Stackdriver Error Reporting","['error', 'errors', 'application', 'service', 'feedback']","0","0","0",1.16,False
+254,0,"Feeding 10 Billion People - Land O'Lakes & CTP","['data', 'decisions', 'cloud', 'iot', 'resources']","0","0","0",1.50,False
+255,0,"Google makes building apps easier with Android Studio 2.0","['app', 'google', 'android', 'studio', 'tests']","0","0","0",0.93,False
+256,0,"Magic Leap has written our future in its patent filings","['reality', 'application', 'future', 'user', 'may']","0","0","0",2.33,False
+257,0,"IoT Day: A timeline of how IoT is changing the world (infographic)","['iot', 'day', 'industry', 'via', 'since']","0","0","0",0.67,False
+258,0,"Why Nature Prefers Hexagons - Issue 35: Boundaries - Nautilus","['four', 'structure', 'area', 'called', 'natural']","0","0","0",6.70,False
+259,0,"Microsoft and HackerRank bring executable code snippets to Bing's search results pages","['code', 'search', 'microsoft', 'languages', 'pages']","0","0","0",0.87,False
+260,0,"How to Think Exponentially and Better Predict the Future","['growth', 'steps', 'progress', 'future', 'five']","0","0","0",4.00,False
+261,0,"App-only bank Atom just launched - here's what it looks like","['bank', 'app', 'banking', 'launched', 'ceo']","0","0","0",1.19,False
+262,0,"Meet the man behind the rise of bots and our AI-driven future","['ai', 'little', 'right', 'artificial intelligence', 'artificial']","0","0","0",2.54,False
+263,0,"Linus Torvalds: The mind behind Linux","['git', 'linux', 'engineering', 'unique', 'helps']","0","0","0",0.18,False
+264,0,"React v15.0.1 | React","['api', 'tools', 'object', 'issue', 'issues']","0","0","0",1.13,False
+265,0,"Intel Reveals Its Plan For Blockchain Technology With 'Sawtooth Lake' Distributed Ledger","['blockchain', 'distributed', 'technology', 'project', 'platform']","0","0","0",1.25,False
+266,0,"Brian Kernighan on the typesetting of "The Go Programming Language" book","['book', 'language', 'programming', 'writing', 'go']","0","0","0",2.71,False
+267,0,"What Software Engineers Earn Compared to the General Population","['countries', 'engineers', 'software', 'average', 'data']","0","0","0",4.53,False
+268,0,"firefox vs rthreads","['slow', 'calls', 'maybe', 'call', 'system']","0","0","0",2.53,False
+269,0,"How big is the Google Earth database? - Google Earth Blog","['total', 'quality', 'google', 'area', 'database']","0","0","0",2.08,False
+270,0,"Why You Hate Comic Sans","['design', 'designed', 'windows', 'visual', 'text']","0","0","0",7.70,False
+271,0,"The Two Types of Product Virality","['product', 'join', 'friends', 'users', 'facebook']","0","0","0",3.08,False
+272,0,"This is the scientific reason we're addicted to our phones","['devices', 'mobile', 'internal', 'usually', 'science']","0","0","0",0.24,False
+273,0,"How To Benefit From Getting Paid in Bitcoin","['bitcoin', 'exchange', 'rate', 'payment', 'method']","0","0","0",2.28,False
+274,0,"Walt Disney Now Loves Blockchain, Going Trustless in Seattle","['blockchain', 'solutions', 'job', 'companies', 'private']","0","0","0",1.18,False
+275,0,"Cloud Storage Goes Mainstream: Storj Launches Beta Joining Azure BaaS","['storage', 'cloud', 'blockchain', 'platform', 'per']","0","0","0",1.12,False
+276,0,"Our Goal is to Replace Your Need for a Bank, Says Blockchain Co-Founder and CEO Nicolas Cary","['bitcoin', 'blockchain', 'wallet', 'financial', 'protocol']","0","0","0",4.34,False
+277,0,"The End Of Apps As We Know Them - Inside Intercom","['cards', 'app', 'apps', 'notifications', 'content']","0","0","0",9.24,False
+278,0,"Equal Pay Day in the spotlight this year","['women', 'pay', 'according', '000', 'percent']","0","0","0",1.32,False
+279,0,"Preventing Software Bugs from Ever Occurring - Quality Functions","['quality', 'software', 'implementation', 'stage', 'save']","0","0","0",1.37,False
+280,0,"Preventing Software Bugs from Ever Occurring - Quality Functions","['quality', 'software', 'implementation', 'stage', 'save']","0","0","0",1.37,False
+281,0,"Preventing Software Bugs from Ever Occurring - Quality Functions","['quality', 'software', 'implementation', 'stage', 'save']","0","0","0",1.37,False
+282,0,"Unknown NEO GEO MVS Fighting Game Discovered & Dumped - Arcade Heroes","['game', 'games', 'screen', 'video', 'data']","0","0","0",1.07,False
+283,0,"On libunwind and dynamically generated code on x86-64","['structure', 'call', 'generated', 'data', 'field']","0","0","0",2.23,False
+284,0,"snare/voltron","['views', 'python', 'view', 'path', 'script']","0","0","0",2.95,False
+285,0,"How to write a Bloom filter in C++","['filter', 'functions', 'bit', 'function', 'size']","0","0","0",2.07,False
+286,0,"7 Mistakes Most Beginners Make When A/B Testing","['test', 'testing', 'tests', 'small', 'goals']","0","0","0",8.17,False
+287,0,"Preventing Software Bugs from Ever Occurring - Quality Functions","['quality', 'software', 'implementation', 'stage', 'save']","0","0","0",1.37,False
+288,0,"Lady Gaga's startup Backplane burns out and sells assets","['startup', 'assets', 'money', 'million', 'business']","0","0","0",2.24,False
+289,0,"When Will The First Machine Become Superintelligent? - AI Revolution","['ai', 'intelligence', 'year', 'machine', 'believe']","0","0","0",2.08,False
+290,0,"Bosch, Flextronics back CropX to help farmers grow more food without wasting water","['said', 'help', 'hardware', 'industry', 'company']","0","0","0",1.66,False
+291,0,"Margaret Gould Stewart: How giant websites design for you (and a billion others, too)","['design', 'billion', 'facebook', 'websites', 'improvements']","0","0","0",0.22,False
+292,0,"Google Cloud Platform adds two new regions, 10 more to come","['cloud platform', 'cloud', 'platform', 'network', 'customers']","0","0","0",0.92,False
+293,0,"Cloud Identity and Access Management - Google IAM","['resource', 'google', 'cloud', 'role', 'account']","0","0","0",3.27,False
+294,0,"Customer Supplied Encryption Keys in Cloud Storage now in beta","['encryption', 'key', 'object', 'customer', 'storage']","0","0","0",6.09,False
+295,0,"Google Cloud Launcher simplifies running third party apps in the cloud","['solutions', 'cloud', 'configuration', 'solution', 'google cloud']","0","0","0",1.34,False
+296,0,"Vision API - Image Content Analysis","['image', 'api', 'vision', 'images', 'content']","0","0","0",1.96,False
+297,0,"1000 nodes and beyond: updates to Kubernetes performance and scalability in 1.2","['kubernetes', 'api', 'node', 'server', 'cluster']","0","0","0",7.89,False
+298,0,"Financial services firm processes 25 billion stock market events per hour with Google Cloud Bigtable","['cloud', 'google cloud', 'per', 'events', 'google']","0","0","0",0.94,False
+299,0,"Where accountability really matters","['employees', 'companies', 'health', 'businesses', 'personal']","0","0","0",1.25,False
+300,0,"13 Game-changing Artificial Intelligence Startups","['artificial', 'artificial intelligence', 'intelligence', 'ai', 'insights']","0","0","0",3.41,False
+301,0,"6 Delicious Sports Snacks Approved by Athletes and Scientists","['study', 'researchers', 'energy', 'performance', 'according']","0","0","0",1.79,False
+302,0,"Building more accessible technology","['screen', 'android', 'voice', 'people', 'visual']","0","0","0",1.41,False
+303,0,"U.S. State Department Recommends Development of Blockchain and Distributed Ledgers to International Partners","['bitcoin', 'blockchain', 'state', 'innovation', 'technology']","0","0","0",1.82,False
+304,0,"Using Blockchain to Authenticate University Diploma","['blockchain', 'digital', 'technology', 'university', 'possible']","0","0","0",1.39,False
+305,0,"Bitcoin In The Time Of Negative Interest Rates","['interest', 'bitcoin', 'would', 'power', 'banks']","0","0","0",1.25,False
+306,0,"Global Blockchain Forum Launched to Coordinate Regulatory Interoperability and Best Practices","['currency', 'blockchain', 'digital', 'said', 'members']","0","0","0",2.93,False
+307,0,"Blockchain won't kill banks: Bitcoin pioneer","['bitcoin', 'blockchain', 'banks', 'technology', 'organization']","0","0","0",2.18,False
+308,0,"UK Regulators Declare Start of","['fintech', 'bitcoin', 'ethereum', 'digital', 'rules']","0","0","0",2.26,False
+309,0,"Facebook Messenger bots are here and they want to kill apps","['bots', 'facebook', 'app', 'bot', 'users']","0","0","0",4.69,False
+310,0,"Bot Engine","['bot', 'rules', 'engine', 'bots', 'learning']","0","0","0",3.37,False
+311,0,"NoSQL Performance Benchmarks","['database', 'performance', 'distributed', 'test', 'data']","0","0","0",2.56,False
+312,0,"Introducing Goals in Google Calendar on Android and iPhone","['goals', 'goal', 'google', 'android', 'help']","0","0","0",1.09,False
+313,0,"Google Calendar's newest feature uses machine learning to help you actually accomplish your goals","['goals', 'goal', 'machine', 'machine learning', 'google']","0","0","0",0.93,False
+314,0,"Google cloud to OpenStack users: Come on in!","['cloud', 'google', 'public', 'storage', 'open source']","0","0","0",1.10,False
+315,0,"Banca IMI Researcher: Blockchain Won't Work if Business Models Don't Change - CoinDesk","['blockchain', 'financial', 'business', 'trust', 'markets']","0","0","0",1.03,False
+316,0,"How Blockchain Could Make Trusts More Transparent - CoinDesk","['blockchain', 'public', 'private', 'trust', 'property']","0","0","0",3.15,False
+317,0,"Facebook's new Messenger bots are the slowest way to use the internet","['bots', 'bot', 'facebook', 'messenger', 'minutes']","0","0","0",2.29,False
+318,0,"Facebook's new Messenger bots are the slowest way to use the internet","['bots', 'bot', 'facebook', 'messenger', 'minutes']","0","0","0",2.29,False
+319,0,"Google Is About to Supercharge Its TensorFlow Open Source AI","['deep', 'deep learning', 'facebook', 'ai', 'learning']","0","0","0",9.05,False
+320,0,"Introducing online resizing of Google Cloud Persistent Disks without downtime","['compute engine', 'block', 'size', 'compute', 'online']","0","0","0",0.97,False
+321,0,"Compute Engine now with 3 TB of high-speed Local SSD and 64 TB of Persistent Disk per VM","['local', 'per', 'compute engine', 'compute', 'performance']","0","0","0",1.44,False
+322,0,"Facebook adds Windows 10 UWP support for making React Native-based apps","['native', 'windows', 'microsoft', 'apps', 'ago']","0","0","0",1.26,False
+323,0,"Android N Developer Preview 2, out today! | Android Developers Blog","['preview', 'developer', 'android', 'feedback', 'update']","0","0","0",1.63,False
+324,0,"Google launches distributed version of its TensorFlow machine learning system","['distributed', 'learning', 'machine learning', 'google', 'library']","0","0","0",0.72,False
+325,0,"Announcing TensorFlow 0.8 - now with distributed computing support!","['distributed', 'training', 'models', 'model', 'cluster']","0","0","0",1.85,False
+326,0,"Picture a Better You: How Google Calendar Uses Illustration to Help You Reach Your Goals - Google Design","['goals', 'life', 'google', 'color', 'users']","0","0","0",2.22,False
+327,0,"Android N Developer Preview 2, out today! | Android Developers Blog","['preview', 'developer', 'android', 'feedback', 'update']","0","0","0",1.63,False
+328,0,"Band plays on, as global oil glut leaves supertankers in a huge jam","['china', 'said', 'global', 'demand', '25']","0","0","0",2.67,False
+329,0,"Waking Ned Devine (1998)","['usa', 'phone', 'color', 'credits', 'specs']","0","0","0",1.12,False
+330,0,"Lessons from a Google App Engine SRE on how to serve over 100 billion requests per day","['engine', 'engineering', 'app', 'google', 'systems']","0","0","0",2.72,False
+331,0,"Choosing Modules and Themes for Drupal 8","['drupal', 'module', 'modules', 'views', 'configuration']","0","0","0",1.59,False
+332,0,"Drupal 8 Module of the Week: simpleSAMLphp Authentication | Acquia","['drupal', 'module', 'modules', 'users', 'user']","0","0","0",2.81,False
+333,0,"Meet Aquifer: A build system for easier Drupal development","['drupal', 'code', 'build', 'module', 'update']","0","0","0",5.50,False
+334,0,"Thunder, a Drupal distribution for publishers","['drupal', 'video', 'custom', 'range', 'modules']","0","0","0",1.92,False
+335,0,"Reaching for the Stars, Across 4.37 Light-Years","['would', 'space', 'years', 'said', 'project']","0","0","0",4.10,False
+336,0,"Google Cloud Status","['configuration', 'ip', 'network', 'google', 'cloud']","0","0","0",11.31,False
+337,0,"NES classic 'Punch-Out' has an Easter egg that went undiscovered for 29 years","['deliver', 'game', 'bit', 'games', 'visual']","0","0","0",0.85,False
+338,0,"Voronoi Diagrams on the GPU","['demo', 'step', 'color', 'shows', 'look']","0","0","0",3.91,False
+339,0,"Creating signed GitHub releases - Debian Wiki","['version', 'software', 'commit', 'good', 'string']","0","0","0",0.19,False
+340,0,"Humans Can Still Do One Thing Better Than AI","['players', 'games', 'computer', 'solutions', 'play']","0","0","0",3.07,False
+341,0,"20 fun facts about everyoneÃ¢â‚¬â„¢s new favorite rolling robot","['20', 'everyone', 'maybe', 'video', 'little']","0","0","0",0.23,False
+342,0,"Threaded messaging is coming to Slack","['slack', 'enterprise', 'service', 'clients', 'tools']","0","0","0",1.55,False
+343,0,"Docker Engine 1.11 with runC: Announcing the general availability of the industry's first OCI-compliant runtime","['docker', 'containers', 'engine', 'release', 'container']","0","0","0",3.74,False
+344,0,"Facebook's WhatsApp does something very different than Google","['says', 'facebook', 'engineers', 'really', 'requires']","0","0","0",1.76,False
+345,0,"Introducing the new Google Cloud Load Balancing UI","['load', 'load balancing', 'balancing', 'ui', 'configuration']","0","0","0",1.84,False
+346,0,"What's The Atomic Unit Of Your Product/Service?","['unit', 'product', 'although', 'think', 'object']","0","0","0",1.24,False
+347,0,"Introducing JQL: A Query Language for Analytics","['query', 'javascript', 'reports', 'language', 'analytics']","0","0","0",2.90,False
+348,0,"Man accidentally deletes his entire company with one line of bad code","['code', 'servers', 'wrote', 'computer', 'everything']","0","0","0",2.15,False
+349,0,"The Challenge of Determining Whether an A.I. Is Sentient","['feel', 'whether', 'machines', 'us', 'cannot']","0","0","0",5.31,False
+350,0,"Artificial Intelligence Can Now Design Realistic Video and Game Imagery","['video', 'computer', 'learning', 'game', 'examples']","0","0","0",1.70,False
+351,0,"Kite wants to be every developer's pair-programming buddy","['founder', 'co', 'text', 'github', 'programming']","0","0","0",1.70,False
+352,0,"Why Thieves Steal Soap","['items', 'parts', 'market', 'products', 'store']","0","0","0",4.91,False
+353,0,"The Famous Photo of Chernobyl's Most Dangerous Radioactive Material Was a Selfie","['center', 'times', 'likely', 'years', 'images']","0","0","0",4.51,False
+354,0,"Warcraft fans' fury at Blizzard over server closure - BBC News","['game', 'players', 'servers', 'server', 'original']","0","0","0",1.36,False
+355,0,"Say Hello to React CDK - KADIRA VOICE","['tools', 'component', 'project', 'build', 'js']","0","0","0",2.49,False
+356,0,"Spotify UI built with HTML / CSS - Freebiesbug","['html', 'css', 'ui', 'app', 'music']","0","0","0",0.19,False
+357,0,"Shuddle, the Uber-like service for getting your kids around, is shutting down tomorrow","['payments', 'april', 'email', 'payment', 'questions']","0","0","0",1.52,False
+358,0,"Performance Testing in a Nutshell","['performance', 'test', 'tests', 'application', 'testing']","0","0","0",5.26,False
+359,0,"DTCC CEO Addresses Blockchain Disruption in Annual Shareholder Letter - CoinDesk","['blockchain', 'wrote', 'technology', 'asset', 'industry']","0","0","0",0.95,False
+360,0,"Ethereum Used for 'First' Paid Energy Trade Using Blockchain Tech - CoinDesk","['energy', 'blockchain', 'power', 'told', 'ethereum']","0","0","0",1.75,False
+361,0,"DualShock 4 Repair","['common', 'information', 'every', 'games', 'background']","0","0","0",0.41,False
+362,0,"[E-learning] Design Thinking for Innovation - University of Virginia | Coursera","['thinking', 'design', 'innovation', 'everyone', 'course']","0","0","0",0.45,False
+363,0,"HackerRank Women's CodeSprint 2016","['women', 'code', 'receive', 'try', 'competition']","0","0","0",0.93,False
+364,0,"Linus Torvalds: The mind behind Linux","['git', 'linux', 'engineering', 'unique', 'helps']","0","0","0",0.18,False
+365,0,"How HTTP/2 is Changing Web Performance Best Practices","['http', 'assets', 'web', 'protocol', 'requests']","0","0","0",4.94,False
+366,0,"Building for HTTP/2","['http', 'file', 'js', 'server', 'files']","0","0","0",10.54,False
+367,0,"Implementing HTTP/2 in Production Environments","['http', 'protocol', 'web', 'support', 'chrome']","0","0","0",3.21,False
+368,0,"The new-world insurance agent","['insurance', 'online', 'percent', 'consumers', 'app']","0","0","0",3.09,False
+369,0,"We spent a week making Trello boards load extremely fast. Here's how we did it.","['card', 'browser', 'cards', 'html', 'models']","0","0","0",5.33,False
+370,0,"These guys created an app that stops college students from using their phones - and it's so successful they dropped out of college","['app', 'points', 'says', 'phone', 'using']","0","0","0",1.94,False
+371,0,"Ingenious Shirt Uses Recognizable Icons to Help Break Language Barriers When Traveling","['world', 'trying', 'language', 'need', 'simply']","0","0","0",0.68,False
+372,0,"Spring DAO vs Spring ORM vs Spring JDBC","['technology', 'configuration', 'data', 'provides', 'module']","0","0","0",3.73,False
+373,0,"The Black Death: The Greatest Catastrophe Ever","['black', 'early', 'per', 'among', 'great']","0","0","0",13.79,False
+374,0,"Remote code execution, git, and OS X","['git', 'version', 'apple', 'code', 'os']","0","0","0",2.00,False
+375,0,"We will encourage you to develop the three great virtues of a programmer: laziness, impatience, and hubris","['javascript', 'numbers', 'list', 'function', 'billion']","0","0","0",3.82,False
+376,0,"Facebook sends a loud message about Messenger bots, but will we hear it?","['messenger', 'bots', 'facebook', 'chat', 'apps']","0","0","0",1.64,False
+377,0,"Browser Ball","['browser', 'configuration', 'windows', 'success', 'everyone']","0","0","0",0.17,False
+378,0,"Ebay's mobile Craigslist competitor Close5 has quietly grown to 7 million downloads","['local', 'mobile', 'app', 'users', 'transactions']","0","0","0",2.97,False
+379,0,"A day in the life of... Director of the Unexpected","['marketing', 'digital', 'industry', 'brand', 'day']","0","0","0",3.67,False
+380,0,"22 Mobile Stats Everyone Should Know - DZone Mobile","['mobile', 'rate', '2015', 'traffic', 'performance']","0","0","0",4.11,False
+381,0,"How Facebook's Big Bet On Chatbots Might Remake The UX Of The Web","['facebook', 'chatbots', 'messenger', 'bots', 'bot']","0","0","0",4.15,False
+382,0,"Like It Is: Bob Dylan Explains What Really Killed Rock 'n' Roll","['music', 'black', 'american', 'white', 'would']","0","0","0",17.34,False
+383,0,"Linking the customer experience to value","['customer', 'customer experience', 'customers', 'experience', 'value']","0","0","0",9.32,False
+384,0,"WeChat's competitor to Slack has arrived","['enterprise', 'chat', 'business', 'service', 'group']","0","0","0",1.28,False
+385,0,"Finally, CSS In JavaScript! Meet CSSX - Smashing Magazine","['css', 'style', 'javascript', 'color', 'size']","0","0","0",12.38,False
+386,0,"Silicon Valley legend Bill Campbell has died - here is some of his best leadership advice","['ceo', 'apple', 'said', 'engineers', 'values']","0","0","0",2.34,False
+387,0,"Could Iceland Embrace Crypto Before Anyone Else?","['banks', 'banking', 'major', 'people', 'three']","0","0","0",1.54,False
+388,0,"Google CDN Beta is here... and it's already one of the fastest CDNs out there!","['google', 'load', 'times', 'page', 'content']","0","0","0",2.60,False
+389,0,"Mining in Space Could Lead to Conflicts on Earth - Facts So Romantic - Nautilus","['space', 'mining', 'science', 'resources', 'companies']","0","0","0",4.21,False
+390,0,"Facebook Messenger's David Marcus on the rocky rollout of bots","['bots', 'really', 'thing', 'people', 'bot']","0","0","0",4.40,False
+391,0,"Is machine learning the next commodity?","['machine learning', 'learning', 'machine', 'algorithms', 'open source']","0","0","0",3.19,False
+392,0,"Airbnb bets on local with user-generated guidebooks and new neighborhood/home matching","['local', 'services', 'areas', 'app', 'update']","0","0","0",3.31,False
+393,0,"Platform Overview","['api', 'google', 'data', 'platform', 'ios']","0","0","0",2.24,False
+394,0,"Google's official Project Wing logo revealed","['amazon', 'project', 'google', 'conference', 'facebook']","0","0","0",1.27,False
+395,0,"Google Drive for Mac/PC just got better! Now sync only the subfolders you need.","['drive', 'google', 'computer', 'space', 'files']","0","0","0",1.18,False
+396,0,"Choose the Google Docs, Sheets, and Slides files you want to access offline","['files', 'access', 'launch', 'release', 'google']","0","0","0",0.86,False
+397,0,"A simple approach to PCI DSS compliance for Google Cloud Platform","['credit', 'card', 'application', 'payment', 'security']","0","0","0",1.11,False
+398,0,"Ray Kurzweil Predicts Three Technologies Will Define Our Future","['technologies', 'ai', 'human', 'intelligence', 'progress']","0","0","0",4.81,False
+399,0,"Drupal 8.1.0 is now available","['drupal', 'modules', 'site', 'module', 'help']","0","0","0",3.20,False
+400,0,"Dilma Rousseff's Impeachment Isn't a Coup, It's a Cover-Up","['car', 'members', 'public', 'many', 'lower']","0","0","0",2.51,False
+401,0,"19 Tips For Everyday Git Use","['git', 'commit', 'log', 'file', 'changes']","0","0","0",11.47,False
+402,0,"Developing iOS 9 Apps with Swift - Curso grÃƒÂ¡tis de Stanford no iTunes U","['ios', 'management', 'design', 'mobile', 'using']","0","0","0",0.23,False
+403,0,"Why You Should Stop Installing Your WebDev Environment Locally - Smashing Magazine","['docker', 'containers', 'link', 'container', 'node']","0","0","0",10.17,False
+404,0,"Every shot Kobe Bryant ever took. All 30,699 of them","['30', '20', 'took', 'field', 'came']","0","0","0",0.20,False
+405,0,"Pinterest Reinvents Itself to Prove It's Really Worth Billions","['engineers', 'says', 'images', 'design', 'people']","0","0","0",9.83,False
+406,0,"Detecting the use of "curl | bash" server side","['send', 'http', 'server', 'receive', 'size']","0","0","0",3.21,False
+407,0,"Panels","['content', 'node', 'drupal', 'system', 'custom']","0","0","0",3.36,False
+408,0,"Features","['drupal', 'module', 'features', 'feature', 'together']","0","0","0",0.16,False
+409,0,"XML sitemap","['module', 'search', 'windows', 'helps', 'ask']","0","0","0",0.16,False
+410,0,"Memcache API and Integration ","['drupal', 'module', 'integration', 'api', 'provides']","0","0","0",0.19,False
+411,0,"Encrypt","['encryption', 'module', 'key', 'data', 'modules']","0","0","0",2.94,False
+412,0,"Search API","['search', 'module', 'filters', 'drupal', 'views']","0","0","0",0.17,False
+413,0,"Better Exposed Filters ","['filters', 'views', 'better', 'module', 'default']","0","0","0",0.17,False
+414,0,"Services ","['drupal', 'api', 'modules', 'clients', 'request']","0","0","0",0.19,False
+415,0,"Password Policy","['must', 'user', 'module', 'defined', 'provides']","0","0","0",0.19,False
+416,0,"Authenticated User Page Caching (Authcache)","['pages', 'user', 'page', 'drupal', 'users']","0","0","0",0.15,False
+417,0,"How to create Trello cards from Slack.","['slack', 'backend', 'id', 'url', 'cards']","0","0","0",2.08,False
+418,0,"How to Override Features","['module', 'features', 'feature', 'configuration', 'code']","0","0","0",8.53,False
+419,0,"Aggregations","['document', 'values', 'metrics', 'documents', 'value']","0","0","0",3.80,False
+420,0,"Build Zappos like faceted navigation with ElasticSearch","['tag', 'filter', 'terms', 'user', 'query']","0","0","0",2.95,False
+421,0,"Terms Aggregation in Elastic Search","['terms', 'field', 'document', 'term', 'value']","0","0","0",10.55,False
+422,0,"Arduino clone is as small as an AA battery","['node', 'github', 'buy', 'ready', 'shows']","0","0","0",0.22,False
+423,0,"An independent organization just ranked Google as the best cloud, beating Amazon","['cloud', 'google', 'amazon', 'performance', 'best']","0","0","0",1.22,False
+424,0,"For Blockchain VCs, the Time for Ethereum Investments Has Come - CoinDesk","['ethereum', 'bitcoin', 'blockchain', 'startups', 'said']","0","0","0",3.52,False
+425,0,"Inbox by Gmail: a better way to keep track of events, newsletters and links","['save', 'events', 'email', 'event', 'keep']","0","0","0",1.10,False
+426,0,"An Introduction to Elasticsearch Aggregations","['offering', 'examples', 'entire', 'provides', 'step']","0","0","0",0.20,False
+427,0,"Inbox by Gmail now helps you track calendar events, save links and stay on top of newsletters","['feature', 'save', 'share', 'link', 'email']","0","0","0",1.55,False
+428,0,"How Neuroscientists Explain the Mind-Clearing Magic of Running","['run', 'mind', 'minutes', 'sometimes', 'go']","0","0","0",4.02,False
+429,0,"Bitcasa killing Drive cloud storage service on May 20, will focus on 'growing platform business'","['drive', 'storage', 'service', 'month', 'cloud']","0","0","0",0.95,False
+430,0,"This Battery-Free Computer Sucks Power Out Of Thin Air","['free', 'says', 'computers', 'could', 'power']","0","0","0",1.99,False
+431,0,"New Asia Trend Bulletin from TrendWatching | BUILT-IN BRANDS","['framework', 'built', 'session', 'slow', 'receive']","0","0","0",0.43,False
+432,0,"You can now be identified by your 'brainprint' with 100% accuracy | KurzweilAI","['event', 'accuracy', 'person', 'protocol', 'related']","0","0","0",2.31,False
+433,0,"You can now be identified by your 'brainprint' with 100% accuracy | KurzweilAI","['event', 'accuracy', 'person', 'protocol', 'related']","0","0","0",2.31,False
+434,0,"The web is Doom - mobiForge","['web', 'page', 'average', 'top', 'sites']","0","0","0",2.94,False
+435,0,"Jarvis: an Amazon Echo clone in your browser with PageNodes","['node', 'query', 'return', 'match', 'answer']","0","0","0",3.08,False
+436,0,"Virtual Weapons Are Turning Teen Gamers Into Serious Gamblers","['game', 'players', 'games', 'people', 'virtual']","0","0","0",6.45,False
+437,0,"Drone believed to have hit British Airways flight 'may have been a plastic bag'","['existing', 'actually', 'said', 'already', 'property']","0","0","0",0.73,False
+438,0,"Hintjens.com","['talk', 'april', 'say', 'told', 'years']","0","0","0",6.10,False
+439,0,"Top 5 GCP NEXT breakout sessions on YouTube (so far)","['google', 'kubernetes', 'cloud', 'google cloud', 'gcp']","0","0","0",1.54,False
+440,0,"TechCrunch launches a personalized news recommendations bot on Facebook Messenger","['bot', 'messenger', 'news', 'facebook', 'send']","0","0","0",1.19,False
+441,0,"Google believes its superior AI will be the key to its future","['cloud', 'ai', 'businesses', 'industry', 'key']","0","0","0",1.27,False
+442,0,"Orphan Black (TV Series 2013- )","['black', 'specs', 'technical', 'written', 'usa']","0","0","0",0.72,False
+443,0,"Accidental discovery could help batteries last years longer","['researchers', 'area', 'concept', 'helps', 'reach']","0","0","0",0.48,False
+444,0,"Why a Universal Language Will Never Be a Thing","['language', 'languages', 'native', 'people', 'person']","0","0","0",5.98,False
+445,0,"Google Drive grows more powerful, feature by feature - TechRepublic","['drive', 'google', 'file', 'files', 'office']","0","0","0",3.03,False
+446,0,"When not to quit, according to the founder of an $11 billion startup that took a while to get off the ground","['march', 'told', 'story', 'general', 'back']","0","0","0",2.03,False
+447,0,"How IoT security can benefit from machine learning","['iot', 'machine learning', 'machine', 'learning', 'devices']","0","0","0",3.86,False
+448,0,"When will AI and NLP actually turn Siri into your best friend?","['ai', 'conversation', 'bots', 'bot', 'things']","0","0","0",4.94,False
+449,0,"The Americans (TV Series 2013- )","['specs', 'worked', 'technical', 'written', 'script']","0","0","0",0.62,False
+450,0,"Bots won't replace apps. Better apps will replace apps.","['apps', 'app', 'ui', 'notifications', 'os']","0","0","0",19.28,False
+451,0,"Developing a customer-experience vision","['customer', 'customer experience', 'experience', 'customers', 'employees']","0","0","0",7.59,False
+452,0,"Why your wallet is becoming the next platform","['wallet', 'credit', 'card', 'payment', 'consumer']","0","0","0",4.28,False
+453,0,"The 100 (TV Series 2014- )","['space', 'specs', 'series', '2014', 'technical']","0","0","0",1.07,False
+454,0,"Chrome OS now has Material Design for the desktop","['chrome', 'os', 'design', 'developers', 'google']","0","0","0",0.62,False
+455,0,"The future is the trust economy","['trust', 'brand', 'social', 'people', 'quality']","0","0","0",3.39,False
+456,0,"Hexagonal != Layers","['layers', 'architecture', 'pattern', 'layer', 'code']","0","0","0",3.24,False
+457,0,"Black Mirror (TV Series 2011- )","['black', 'series', 'show', 'specs', '12']","0","0","0",0.20,False
+458,0,"Tutorial: How to build a GraphQL server - Building Apollo","['server', 'author', 'query', 'js', 'views']","0","0","0",6.48,False
+459,0,"Leaf - Machine Learning for Hackers","['machine', 'learning', 'layers', 'machine learning', 'deep learning']","0","0","0",1.43,False
+460,0,"Develop your first Facebook messenger bot in PHP","['bot', 'page', 'message', 'facebook', 'messages']","0","0","0",4.38,False
+461,0,"Half Your Brain Stands Guard When Sleeping In A New Place","['half', 'says', 'side', 'left', 'researchers']","0","0","0",1.98,False
+462,0,"/dev/random - a new approach","['random', 'linux', 'implementation', 'data', 'design']","0","0","0",1.71,False
+463,0,"How to make Multi-Layered Parallax Illustration with CSS & Javascript","['layer', 'layers', 'hero', 'data', 'type']","0","0","0",3.74,False
+464,0,"IBM makes a big shift into cognitive computing","['ibm', 'research', 'artificial intelligence', 'artificial', 'intelligence']","0","0","0",3.52,False
+465,0,"A New Number Format for Computers Could Nuke Approximation Errors for Good","['number', 'point', 'numbers', 'values', '000']","0","0","0",2.92,False
+466,0,"Embracing Agile","['agile', 'teams', 'team', 'practices', 'work']","0","0","0",19.26,False
+467,0,"What exercise does to your bones","['less', 'us', 'life', 'much', 'changes']","0","0","0",2.83,False
+468,0,"Brazil's Bank ItaÃƒÂº Joins R3 Blockchain Consortium - CoinDesk","['bank', 'join', 'global', 'banks', 'blockchain']","0","0","0",0.66,False
+469,0,"How to augment your career with leadership coaching","['women', 'client', 'tech', 'organization', 'change']","0","0","0",3.09,False
+470,0,"Game of Loans","['bank', 'trade', 'credit', 'capital', 'family']","0","0","0",2.93,False
+471,0,"Game of Loans","['bank', 'trade', 'credit', 'capital', 'family']","0","0","0",2.93,False
+472,0,"Raspberry Pi gets an 8-megapixel Sony camera upgrade","['smartphone', 'element', 'fixed', 'components', 'price']","0","0","0",0.41,False
+473,0,"New functional programming language can generate C, Python code for apps","['code', 'generate', 'language', 'python', 'programming']","0","0","0",1.35,False
+474,0,"A Neural Network that Dreams in Resumes - untapt blog","['neural', 'networks', 'network', 'complete', 'could']","0","0","0",1.92,False
+475,0,"Chrome extension brings Medium's best feature to the whole Web","['chrome', 'article', 'read', 'web', 'long']","0","0","0",1.09,False
+476,0,"Android Quickstart - Firebase","['android', 'data', 'database', 'object', 'add']","0","0","0",2.59,False
+477,0,"How SaaS is bringing B2B marketplaces back","['platform', 'companies', 'application', 'value', 'sales']","0","0","0",3.23,False
+478,0,"Sign Up for Mike Cohn's Best Content","['news', 'blog', 'sure', 'sign', 'quite']","0","0","0",0.90,False
+479,0,"Logout" is not a verb","['log', 'strong', 'book', 'part', 'language']","0","0","0",4.43,False
+480,0,"Windows Subsystem for Linux Overview","['linux', 'windows', 'system', 'file', 'files']","0","0","0",4.34,False
+481,0,"Being a Developer After 40","['games', 'programming', 'ideas', 'writing', 'wanted']","0","0","0",0.21,False
+482,0,"Jenkins 2.0 is here!","['effort', 'box', 'project', 'release', 'years']","0","0","0",2.26,False
+483,0,"Why Google App Engine rocks: A Google engineer's take","['google', 'cloud', 'team', 'developers', 'google cloud']","0","0","0",2.44,False
+484,0,"What the Google I/O schedule tells us about the future of Android","['android', 'google', 'vr', 'design', 'app']","0","0","0",3.43,False
+485,0,"China leaps ahead of Japan, is second in global iOS app revenue","['app', 'growth', 'china', 'year', 'smartphone']","0","0","0",1.12,False
+486,0,"Larry Page's dream of building a 'Google Island' could be coming true","['google', 'would', 'page', 'idea', 'self']","0","0","0",1.27,False
+487,0,"Deep-learning neural network creates its own interpretive dance | ExtremeTech","['human', 'computer', 'neural', 'generate', 'means']","0","0","0",2.09,False
+488,0,"Will IIoT bolster industrial automation investments? - ReadWrite","['report', 'traditional', 'investment', 'term', 'growth']","0","0","0",1.14,False
+489,0,"Future Screens are Mostly Blue - 99% Invisible","['design', 'science', 'future', 'interface', 'color']","0","0","0",2.94,False
+490,0,"The FBI Faked an Entire Field of Forensic Science","['post', 'cases', 'percent', 'unit', 'would']","0","0","0",2.17,False
+491,0,"Java Collections Cheat Sheet","['collection', 'java', 'elements', 'methods', 'element']","0","0","0",8.24,False
+492,0,"Java 8 Best Practices Cheat Sheet","['java', 'method', 'functions', 'code', 'values']","0","0","0",4.73,False
+493,0,"Introducing Google Consumer Surveys API: Let users of your app create surveys","['api', 'consumer', 'solutions', 'google', 'enterprise']","0","0","0",0.69,False
+494,0,"Inside OpenAI, Elon Musk's Wild Plan to Set Artificial Intelligence Free","['ai', 'says', 'researchers', 'research', 'google']","0","0","0",9.94,False
+495,0,"Practical Frameworks for Beating Burnout","['says', 'people', 'things', 'really', 'startups']","0","0","0",13.20,False
+496,0,"Inside Capacitor, BigQuery's next-generation columnar storage format | Google Cloud Big Data Blog","['data', 'storage', 'query', 'input', 'paper']","0","0","0",3.91,False
+497,0,"Inside Capacitor, BigQuery's next-generation columnar storage format | Google Cloud Big Data Blog","['data', 'storage', 'query', 'input', 'paper']","0","0","0",3.91,False
+498,0,"Inside Capacitor, BigQuery's next-generation columnar storage format | Google Cloud Big Data Blog","['data', 'storage', 'query', 'input', 'paper']","0","0","0",3.91,False
+499,0,"Forget the Cloud - 'The Fog' Is the Next Big Thing | Fox Business","['cloud', 'data', 'networks', 'computing', 'iot']","0","0","0",2.60,False
+500,0,"5 awesome Google Keep features you aren't using, but should be","['keep', 'note', 'google', 'list', 'text']","0","0","0",2.60,False
+501,0,"Google Calendar for Android can now find meeting times that work for everyone","['google', 'wrote', 'times', 'feature', 'find']","0","0","0",0.81,False
+502,0,"World's Fastest Growing Open Source Platform Pushes Out New Release","['node js', 'js', 'node', 'release', 'version']","0","0","0",2.26,False
+503,0,"Debugging data transformations using Cloud Dataflow and Stackdriver Debugger | Google Cloud Big Data Blog","['source', 'code', 'step', 'ui', 'line']","0","0","0",2.62,False
+504,0,"Enhanced persistent disks for Google Compute Engine = better Kubernetes and Docker support","['kubernetes', 'docker', 'google', 'instance', 'red']","0","0","0",1.39,False
+505,0,"Lessons learned from a year of using live migration in production on Google Cloud","['events', 'live', 'customers', 'improvements', 'compute engine']","0","0","0",2.43,False
+506,0,"Video: Can we save the open web? by Dries Buytaert at SxSW","['web', 'open', 'information', 'control', 'algorithms']","0","0","0",1.84,False
+507,0,"Taming the herd: using Zookeeper and Exhibitor on Google Container Engine","['cluster', 'file', 'name', 'server', 'kubernetes']","0","0","0",2.96,False
+508,0,"These gloves can convert sign language into spoken English","['sign', 'language', 'university', 'video', 'text']","0","0","0",0.15,False
+509,0,"OpenAI","['games', 'learning', 'environment', 'results', 'algorithms']","0","0","0",2.84,False
+510,0,"Load Your Steam Wallet Using Bitcoin","['bitcoin', 'payment', 'countries', 'method', 'wallet']","0","0","0",0.79,False
+511,0,"The Science of Cycology","['errors', 'non', 'people', 'know', 'objects']","0","0","0",6.12,False
+512,0,"Machine Learning, AI, and the Emperor's Vest","['ai', 'learning', 'machine learning', 'machine', 'artificial']","0","0","0",1.24,False
+513,0,"SpaceX plans to debut Red Dragon with 2018 Mars mission","['red', 'launch', 'plans', 'although', 'year']","0","0","0",2.60,False
+514,0,"Facebook at Work pushed to 'later this year'","['facebook', 'enterprise', 'work', 'slack', 'year']","0","0","0",1.79,False
+515,0,"Wells Fargo to Verify Customers through Eye Prints","['bank', 'customers', 'unique', 'plans', '2014']","0","0","0",0.18,False
+516,0,"You won't recognize the new world of digital payments without this report","['payments', 'report', 'cards', 'mobile', 'ecosystem']","0","0","0",2.42,False
+517,0,"The need to lead in data and analytics","['analytics', 'say', 'companies', 'low', 'data']","0","0","0",4.72,False
+518,0,"Plug the Fathom Neural Compute Stick into any USB device to make it smarter","['neural', 'device', 'computer', 'system', 'power']","0","0","0",2.71,False
+519,0,"Google for Work and Google Cloud Platform get new security and privacy certifications","['google', 'cloud', 'customers', 'security', 'data']","0","0","0",1.51,False
+520,0,"The Secret History of Agile Innovation","['library', 'access', 'free', 'including', 'issues']","0","0","0",0.44,False
+521,0,"Swift.org","['class', 'type', 'methods', 'name', 'string']","0","0","0",6.39,False
+522,0,"Moovit's new Facebook chatbot for transport proves v0 is not going to be good","['tech', 'facebook', 'bot', 'history', 'going']","0","0","0",0.82,False
+523,0,"johnpapa/angular-styleguide","['guide', 'style', 'software', 'request', 'issue']","0","0","0",1.72,False
+524,0,"Labyrinth of Lies (2014)","['usa', 'specs', 'best', '15', '2014']","0","0","0",0.88,False
+525,0,"The Big Lebowski (1998)","['usa', 'color', 'lot', 'march', 'big']","0","0","0",1.56,False
+526,0,"Rams (2015)","['credits', 'specs', 'box', '2015', 'office']","0","0","0",0.91,False
+527,0,"Sunset Blvd. (1950)","['credits', 'specs', 'story', 'technical', 'written']","0","0","0",0.84,False
+528,0,"Incendies (2010)","['usa', 'credits', 'specs', 'technical', 'search']","0","0","0",0.90,False
+529,0,"The Best Offer (2013)","['usa', 'specs', 'collection', '2014', 'offer']","0","0","0",0.78,False
+530,0,"Inception (2010)","['credits', 'usa', 'specs', 'mind', 'technical']","0","0","0",0.99,False
+531,0,"Now playing: New ISO security and privacy certifications for Google Cloud Platform","['cloud', 'google cloud', 'security', 'google', 'cloud platform']","0","0","0",0.56,False
+532,0,"5 reasons your employees aren't sharing their knowledge","['sharing', 'knowledge', 'employees', 'shared', 'technology']","0","0","0",5.02,False
+533,0,"The Skills You'll Need and the Salary You Can Expect as a Data Scientist","['data', 'data science', 'science', 'scientists', 'programming']","0","0","0",0.72,False
+534,0,"The Best Linux Distros of 2016","['linux', 'os', 'operating', 'best', 'system']","0","0","0",5.98,False
+535,0,"Event Map For Google I/O 2016 Released","['event', 'google', 'map', 'place', 'taking']","0","0","0",0.75,False
+536,0,"Email Isn't The Thing You're Bad At","['email', 'messages', 'task', 'message', 'tasks']","0","0","0",13.09,False
+537,0,"8 Old School SEO Practices That Are No Longer Effective - Whiteboard Friday","['content', 'domain', 'link', 'going', 'hand']","0","0","0",7.66,False
+538,0,"This year's Founders' Letter","['google', 'people', 'search', 'mobile', 'information']","0","0","0",7.42,False
+539,0,"Google CEO: Mobile will fade, AI will rise","['artificial intelligence', 'ai', 'artificial', 'intelligence', 'wrote']","0","0","0",0.69,False
+540,0,"You're Asking Too Much of Chat Bots. Just Let Them Grow Up","['bots', 'neural', 'bot', 'commerce', 'facebook']","0","0","0",4.21,False
+541,0,"A sneak peek at Google's upcoming travel app, Trips","['app', 'google', 'local', 'information', 'details']","0","0","0",1.80,False
+542,0,"DeepMind moves to TensorFlow","['research', 'open source', 'learning', 'source', 'open']","0","0","0",1.06,False
+543,0,"A Single App That'll Wrangle Your Millions of Messengers","['vr', 'phone', 'case', 'app', 'iphone']","0","0","0",25.74,False
+544,0,"A Single App That'll Wrangle Your Millions of Messengers","['vr', 'phone', 'case', 'app', 'iphone']","0","0","0",25.74,False
+545,0,"Franz - from idea to 10,000 daily active users in 26 days - Meet Franz","['product', 'app', 'messaging', '000', 'slack']","0","0","0",2.03,False
+546,0,"Twitter killed Magic Recs, the only useful bot there is","['twitter', 'bot', 'via', 'bots', 'accounts']","0","0","0",0.60,False
+547,0,"Being A Developer After 40 - Free Code Camp","['software', 'learn', 'developer', 'programming', 'year']","0","0","0",14.89,False
+548,0,"Good Software Takes Ten Years. Get Used To it.","['software', 'years', 'version', 'people', 'good']","0","0","0",6.47,False
+549,0,"The Joel Test: 12 Steps to Better Code","['code', 'software', 'takes', 'minutes', 'wrote']","0","0","0",10.00,False
+550,0,"Cookbook","['test', 'tests', 'module', 'testing', 'event']","0","0","0",8.54,False
+551,0,"Deep Learning Demystified","['layer', 'layers', 'input', 'neural', 'network']","0","0","0",6.40,False
+552,0,"Microsoft wants to connect all your favorite apps with Flow","['apps', 'programs', 'notifications', 'microsoft', 'different']","0","0","0",0.90,False
+553,0,"Google's OnHub router finally gets some smart home features via IFTTT","['home', 'smart', 'action', 'device', 'google']","0","0","0",1.91,False
+554,0,"Ordering coffee in Italy: the 10 commandments","['bar', 'order', 'single', 'credit', 'outside']","0","0","0",2.76,False
+555,0,"To bot or not to bot","['bots', 'bot', 'service', 'slack', 'useful']","0","0","0",2.52,False
+556,0,"Kubernetes","['deployment', 'demo', 'update', 'kubernetes', 'image']","0","0","0",3.20,False
+557,0,"To Use Physical Or To Use Virtual: That is the container deployment question","['docker', 'answer', 'containers', 'physical', 'run']","0","0","0",2.66,False
+558,0,"Is the Chatbot Trend One Big Misunderstanding?","['china', 'messaging', 'chatbots', 'chat', 'tasks']","0","0","0",1.43,False
+559,0,"The 24 best restaurants in New York City","['best', 'several', 'task', 'happen', 'choose']","0","0","0",0.26,False
+560,0,"Why image recognition is about to transform business","['vision', 'computer', 'recognition', 'learning', 'images']","0","0","0",4.63,False
+561,0,"Clippy's Back: The Future of Microsoft Is Chatbots","['microsoft', 'bots', 'bot', 'says', 'back']","0","0","0",8.43,False
+562,0,"The 200 billion dollar chatbot disruption","['chatbots', 'customer', 'search', 'support', 'businesses']","0","0","0",5.16,False
+563,0,"Google made a huge change to the way Google Maps look","['google', 'screen', 'shows', 'side', 'design']","0","0","0",0.62,False
+564,0,"The Hateful Eight (2015)","['red', '000', 'usa', 'credits', '2015']","0","0","0",1.31,False
+565,0,"Conversational Banking; from branches to bots. - Chatbots Magazine","['messaging', 'chat', 'bank', 'apps', 'services']","0","0","0",5.87,False
+566,0,"5 ways to create an environment that helps adults learn to love coding","['said', 'code', 'people', 'learning', 'community']","0","0","0",2.27,False
+567,0,"Extreme Style Machines:Using Random Neural Networks to Generate Textures","['units', 'neural', 'style', 'random', 'quality']","0","0","0",3.21,False
+568,0,"This motorized wheel adds electric power to your bike","['20', 'company', 'little', 'almost', 'says']","0","0","0",2.17,False
+569,0,"How Android gets to 100% market share","['os', 'android', 'apple', 'google', 'desktop']","0","0","0",4.85,False
+570,0,"Handling context in "outside-in","['block', 'page', 'groups', 'context', 'user']","0","0","0",3.45,False
+571,0,"While doves were crying: this week on Google Cloud Platform","['google', 'gcp', 'engine', 'cloud', 'week']","0","0","0",1.31,False
+572,0,"Effective learning through code workshops | Box Blog","['code', 'people', 'file', 'everyone', 'engineers']","0","0","0",3.91,False
+573,0,"Big IT Rising","['agile', 'work', 'team', 'big', 'development']","0","0","0",4.49,False
+574,0,"Dries Buytaert","['drupal', 'modules', 'community', 'question', 'takes']","0","0","0",2.36,False
+575,0,"Are Chatbots Really The Future Of Web Design?","['chatbots', 'says', 'design', 'personal', 'website']","0","0","0",2.87,False
+576,0,"Python Ecosystem for Machine Learning - Machine Learning Mastery","['python', 'machine learning', 'machine', 'learning', 'learn']","0","0","0",3.89,False
+577,0,"This Japanese Restaurant Is Decked out With Yakuza-Inspired Tattoo Art | Highsnobiety","['black', 'pattern', 'white', 'red', 'members']","0","0","0",0.38,False
+578,0,"Predicting the future, one week at a time","['week', 'total', 'users', 'used', 'pattern']","0","0","0",1.49,False
+579,0,"Google acquires Synergyse, an interactive training service for Google Apps","['google', 'training', 'apps', 'service', 'customers']","0","0","0",0.87,False
+580,0,"Scientists discover potentially habitable planets","['scientists', 'life', 'may', 'system', 'says']","0","0","0",2.75,False
+581,0,"Estonia wants to become a 'country as a service' and already has 10,000 virtual residents","['digital', 'online', 'says', 'bank', 'unique']","0","0","0",3.07,False
+582,0,"Qualcomm's deep learning SDK will mean more AI on your smartphone","['deep learning', 'deep', 'learning', 'programs', 'companies']","0","0","0",1.57,False
+583,0,"The 7 Habits of a Highly Effective Product Owner","['product', 'highly', 'past', 'customers', 'right']","0","0","0",2.39,False
+584,0,"Qualcomm Snapdragon 820 Deep Learning SDK Nudges Local Neural Nets Closer To Mainstream","['neural', 'deep learning', 'processing', 'deep', 'engine']","0","0","0",0.97,False
+585,0,"Why The New Chatbot Invasion Is So Different From Its Predecessors","['chatbots', 'human', 'messenger', 'says', 'bots']","0","0","0",5.12,False
+586,0,"Google acquires Synergyse, an interactive training service for Google Apps","['google', 'training', 'apps', 'service', 'customers']","0","0","0",0.87,False
+587,0,"Adaptation. (2002)","['book', 'music', 'usa', 'life', 'credits']","0","0","0",1.68,False
+588,0,"Being John Malkovich (1999)","['lines', 'written', 'know', 'yet', 'feel']","0","0","0",0.27,False
+589,0,"Magnolia (1999)","['usa', 'credits', 'specs', 'asked', 'production']","0","0","0",1.32,False
+590,0,"Eternal Sunshine of the Spotless Mind (2004)","['credits', 'usa', 'memory', 'specs', 'march']","0","0","0",0.96,False
+591,0,"Once Upon a Time in the West (1968)","['color', 'written', '000', 'go', 'around']","0","0","0",0.85,False
+592,0,"Let the Right One In (2008)","['12', 'usa', 'specs', 'love', 'technical']","0","0","0",0.91,False
+593,0,"4 Months, 3 Weeks and 2 Days (2007)","['women', 'months', 'specs', 'weeks', 'technical']","0","0","0",0.82,False
+594,0,"Downfall (2004)","['credits', 'april', 'usa', 'specs', 'technical']","0","0","0",1.36,False
+595,0,"Boogie Nights (1997)","['usa', 'know', 'credits', 'specs', 'technical']","0","0","0",0.92,False
+596,0,"Punch-Drunk Love (2002)","['map', 'usa', 'life', 'phone', 'color']","0","0","0",1.51,False
+597,0,"Pi (1998)","['usa', 'credits', 'specs', 'technical', 'written']","0","0","0",1.09,False
+598,0,"Requiem for a Dream (2000)","['credits', 'usa', 'reason', 'four', 'got']","0","0","0",1.53,False
+599,0,"The Fountain (2006)","['credits', 'usa', 'love', 'form', 'map']","0","0","0",1.17,False
+600,0,"The Cook, the Thief, His Wife & Her Lover (1989)","['credits', 'specs', 'technical', 'written', 'usa']","0","0","0",0.56,False
+601,0,"Wings of Desire (1987)","['life', 'human', 'script', 'usa', 'credits']","0","0","0",1.49,False
+602,0,"Sympathy for Lady Vengeance (2005)","['specs', 'big', 'technical', '000', 'small']","0","0","0",0.68,False
+603,0,"Sympathy for Mr. Vengeance (2002)","['script', 'usa', 'specs', 'area', 'strong']","0","0","0",1.04,False
+604,0,"Oldboy (2003)","['15', 'wrong', 'please', 'live', '000']","0","0","0",0.96,False
+605,0,"Melancholia (2011)","['think', 'usa', 'specs', 'technical', 'music']","0","0","0",0.95,False
+606,0,"Dogville (2003)","['credits', 'usa', 'specs', 'told', 'return']","0","0","0",1.62,False
+607,0,"Departures (2008)","['usa', 'job', 'life', 'specs', 'technical']","0","0","0",1.07,False
+608,0,"How Companies Are Using Machine Learning to Get Faster and More Efficient","['library', 'access', 'free', 'including', 'issues']","0","0","0",0.44,False
+609,0,"An operating model for company-wide agile development","['agile', 'product', 'teams', 'business', 'units']","0","0","0",8.85,False
+610,0,"Scrum Community - Scrum Alliance","['agile', 'teams', 'level', 'development', 'knowledge']","0","0","0",4.80,False
+611,0,"The Spotify Tribe","['music', 'internal', 'teams', 'agile', 'cross']","0","0","0",0.29,False
+612,0,"Why the customer experience matters","['customer', 'customer experience', 'experience', 'company', 'customers']","0","0","0",11.45,False
+613,0,"Improving Angular performance with 1 line of code","['line', 'code', 'page', 'example', 'performance']","0","0","0",1.35,False
+614,0,"VersionOne AgilelIVEÃ¢â€žÂ¢ Webinar Series| SAFeÃ‚Â® Expert Webinar","['agile', 'program', 'practices', 'clients', 'cross']","0","0","0",0.29,False
+615,0,"Google's Cloud Dataflow stomps on Apache Spark in new benchmark tests","['data', 'cloud', 'study', 'said', 'google']","0","0","0",2.72,False
+616,0,"Brazilian Government and Ericsson to innovate together for Internet of Things","['lab', 'com', 'iot', 'university', 'innovation']","0","0","0",3.09,False
+617,0,"Planned Death","['home', 'room', 'always', 'life', 'family']","0","0","0",4.10,False
+618,0,"Google : End Of The Online Advertising Bubble","['ad', 'traffic', 'online', 'quality', 'websites']","0","0","0",9.11,False
+619,0,"Hidden (CachÃƒÂ©) (2005)","['credits', 'family', 'usa', 'specs', 'technical']","0","0","0",1.00,False
+620,0,"Mulholland Drive (2001)","['credits', 'drive', 'usa', 'specs', 'box']","0","0","0",0.90,False
+621,0,"How Green Was My Valley (1941)","['family', 'mining', 'seen', 'specs', 'millions']","0","0","0",1.29,False
+622,0,"All About Eve (1950)","['room', 'usa', 'credits', 'specs', 'party']","0","0","0",1.25,False
+623,0,"Chatbots for work: Troops raises $2.6M to help you use Salesforce","['bot', 'bots', 'messaging', 'slack', 'chatbots']","0","0","0",3.26,False
+624,0,"IBM Is Now Letting Anyone Play With Its Quantum Computer","['computing', 'ibm', 'computer', 'machine', 'service']","0","0","0",2.69,False
+625,0,"How I got into the top 15 of a Kaggle competition in 3 days: A Python Tutorial","['data', 'training', 'competition', 'accuracy', 'cluster']","0","0","0",12.95,False
+626,0,"Asia's mobile-first economy and how the West is feeling the effects","['mobile', 'consumer', 'tech', 'commerce', 'facebook']","0","0","0",2.97,False
+627,0,"An operating model for company-wide agile development","['agile', 'product', 'teams', 'business', 'units']","0","0","0",8.85,False
+628,0,"A Royal Affair (2012)","['music', 'usa', 'understand', 'specs', 'writing']","0","0","0",1.31,False
+629,0,"Bicycle Thieves (1948)","['usa', 'specs', 'job', 'technical', 'behind']","0","0","0",0.89,False
+630,0,"Nights of Cabiria (1957)","['usa', 'specs', 'stage', 'technical', 'little']","0","0","0",0.69,False
+631,0,"If you think women in tech is just a pipeline problem, you haven't been paying attention - Tech Diversity Files","['women', 'tech', 'employees', 'research', 'study']","0","0","0",7.93,False
+632,0,"The White House Has Realized Artificial Intelligence Is Very Important","['intelligence', 'white', 'artificial intelligence', 'artificial', 'events']","0","0","0",0.76,False
+633,0,"Algorithms and architecture for job recommendations","['jobs', 'user', 'job', 'users', 'cluster']","0","0","0",7.36,False
+634,0,"[Tools] Personal Kanban in "Favro","['work', 'personal', 'week', 'cards', 'task']","0","0","0",3.16,False
+635,0,"After a year of using NodeJS in production","['node', 'javascript', 'errors', 'python', 'error']","0","0","0",3.42,False
+636,0,"4 Strategies for Mastering UX in Virtual Reality Games","['vr', 'game', 'virtual', 'users', 'world']","0","0","0",3.12,False
+637,0,"Mimo baby monitor helps parents get more sleep","['said', 'rest', 'data', 'app', 'devices']","0","0","0",1.51,False
+638,0,"Accept questions from your audience when presenting in Google Slides","['questions', 'release', 'google', 'center', 'present']","0","0","0",1.14,False
+639,0,"Apple, Set to Move to Its Spaceship, Should Try More Moonshots","['apple', 'music', 'iphone', 'services', 'products']","0","0","0",4.52,False
+640,0,"Docker Cleanup Scripts Comparison","['docker', 'script', 'github', 'containers', 'option']","0","0","0",1.43,False
+641,0,"Docker inside docker and overview about Jenkins 2","['docker', 'container', 'run', 'inside', 'manage']","0","0","0",1.73,False
+642,0,"6 reasons why I like KeystoneML","['data', 'data science', 'machine learning', 'scientists', 'learning']","0","0","0",3.11,False
+643,0,"Forget Wallets, Check out This Serious FinTech Product Built in India: ZestMoney for Instant Credit","['credit', 'customer', 'card', 'commerce', 'customers']","0","0","0",3.75,False
+644,0,"Angular 2","['hero', 'component', 'import', 'export', 'style']","0","0","0",17.50,False
+645,0,"Dag Kittlaus, co-founder of Siri, will give the world's first demo of a next gen AI called Viv at Disrupt NY","['ai', 'co', 'founder', 'apple', 'ceo']","0","0","0",1.69,False
+646,0,"The Color of Paradise (1999)","['color', 'usa', 'specs', 'technical', 'credits']","0","0","0",0.63,False
+647,0,"Enemy (2013)","['line', 'music', 'usa', 'credits', 'specs']","0","0","0",1.21,False
+648,0,"29 Common Google Analytics Data Errors And How To Fix Them","['analytics', 'filter', 'data', 'property', 'view']","0","0","0",25.48,False
+649,0,"Design Kit: Prototyping","['course', 'design', 'feedback', 'team', 'human']","0","0","0",1.71,False
+650,0,"Creative partnerships: Machine learning and the future of design - O'Reilly Media Free, Live Events","['machine learning', 'machine', 'learning', 'design', 'generation']","0","0","0",0.79,False
+651,0,"Chatbots Are Your Newest, Dumbest Co-Workers","['chatbots', 'bots', 'bot', 'employees', 'slack']","0","0","0",2.64,False
+652,0,"Google's AI engine is reading 2,865 romance novels to be more conversational","['google', 'engine', 'ai', 'artificial intelligence', 'artificial']","0","0","0",1.49,False
+653,0,"How One Jira Ticket Made My Employer $1MM/Month: 7 Metrics that Actually Matter - JavaScript Scene","['metrics', 'support', 'load', 'core', 'agile']","0","0","0",5.27,False
+654,0,"Google Cloud and Autodesk enable 10x improvement in media rendering efficiency","['cloud', 'media', 'google', 'vision', 'cloud platform']","0","0","0",1.97,False
+655,0,"The Startup Zeitgeist","['applications', 'slack', 'companies', 'startups', 'popular']","0","0","0",3.52,False
+656,0,"How a Chatbot Helped This Vinyl Records Startup Make $1 Million in 8 Months","['percent', 'store', 'buy', 'text', 'million']","0","0","0",1.69,False
+657,0,"VR possibilities at Google I/O 2016: Four things I'm hoping to see","['vr', 'google', 'could', 'apps', 'android']","0","0","0",2.66,False
+658,0,"JavaServer Faces 2.3 Quick Reference - DZone Java","['map', 'class', 'custom', 'must', 'push']","0","0","0",7.25,False
+659,0,"Five priorities for competing in an era of digital globalization","['digital', 'global', 'trade', 'companies', 'platforms']","0","0","0",5.36,False
+660,0,"Google connects BigQuery to Google Drive and Sheets","['google', 'drive', 'files', 'google cloud', 'cloud platform']","0","0","0",1.03,False
+661,0,"Susan Wojcicki on the Effectiveness of Empowering Ads on YouTube","['women', 'ad', 'top', 'likely', '2015']","0","0","0",2.99,False
+662,0,"Auto-scaling scikit-learn with Spark","['learn', 'import', 'cluster', 'python', '10']","0","0","0",2.41,False
+663,0,"The SFMOMA's New App Will Forever Change How You Enjoy Museums","['app', 'phone', 'designed', 'point', 'based']","0","0","0",1.10,False
+664,0,"Building AI Is Hard-So Facebook Is Building AI That Builds AI","['ai', 'engineers', 'learning', 'machine learning', 'facebook']","0","0","0",4.00,False
+665,0,"Designing smart notifications","['notifications', 'smart', 'data', 'would', 'human']","0","0","0",4.85,False
+666,0,"Nashorn: JavaScript made great in Java 8","['javascript', 'java', 'developer', 'html', 'web']","0","0","0",1.51,False
+667,0,"Stetho for Android debug builds only","['android', 'app', 'application', 'add', 'class']","0","0","0",1.31,False
+668,0,"Programming by poking: why MIT stopped teaching SICP","['programming', 'engineers', 'python', 'systems', 'programs']","0","0","0",1.26,False
+669,0,"Inside Palantir, Silicon Valley's Most Secretive Company","['palantir', 'said', 'according', 'employees', 'company']","0","0","0",10.34,False
+670,0,"Google is quietly making progress on one of its most jaw-dropping tech projects","['google', 'technology', 'year', 'recent', 'lab']","0","0","0",1.10,False
+671,0,"The next AI is no AI","['intelligence', 'ai', 'systems', 'human', 'artificial']","0","0","0",3.91,False
+672,0,"The next stop on the road to revolution is ambient intelligence","['intelligence', 'ai', 'digital', 'computing', 'context']","0","0","0",3.68,False
+673,0,"Bots, Messenger and the future of customer service","['customer', 'bots', 'chat', 'consumers', 'service']","0","0","0",2.00,False
+674,0,"Inside the offices of New York's biggest startups","['startup', 'office', 'building', 'around', 'may']","0","0","0",0.59,False
+675,0,"TPOT: A Python tool for automating data science","['import', 'class', 'values', 'machine learning', 'machine']","0","0","0",4.32,False
+676,0,"Getting Started with Activity & Fragment Transitions (part 1)","['activity', 'views', 'shared', 'content', 'element']","0","0","0",5.78,False
+677,0,"Introducing the Startup Battlefield companies of Disrupt NY 2016","['startup', 'startups', 'session', 'companies', 'days']","0","0","0",0.92,False
+678,0,"Shutter Island (2010)","['usa', 'april', 'written', 'together', '000']","0","0","0",0.85,False
+679,0,"The Top 10 Most Common Mistakes That Node.js Developers Make","['js', 'node js', 'node', 'function', 'done']","0","0","0",8.11,False
+680,0,"Miracles of Human Language: An Introduction to Linguistics - Universiteit Leiden, Meertens instituut (KNAW) | Coursera","['languages', 'language', 'course', 'human', 'study']","0","0","0",0.99,False
+681,0,"Here's what Viv looks like, the next generation AI assistant built by Siri creator","['demo', 'services', 'built', 'layer', 'voice']","0","0","0",0.41,False
+682,0,"Is FinTech Forcing Banking to a Tipping Point?","['fintech', 'banking', 'banks', 'digital', 'financial']","0","0","0",5.13,False
+683,0,"A digital crack in banking's business model","['banking', 'banks', 'digital', 'financial', 'customers']","0","0","0",2.88,False
+684,0,"35 Innovative and Inspirational Website Designs in Banking","['websites', 'financial', 'banking', 'brand', 'industry']","0","0","0",0.90,False
+685,0,"[Tools] 12 Apps for Live-streaming Video","['live', 'video', 'price', 'free', 'app']","0","0","0",2.71,False
+686,0,"Facebook details its company-wide machine learning platform, FBLearner Flow","['facebook', 'machine learning', 'machine', 'learning', 'engineers']","0","0","0",1.45,False
+687,0,"How Airbnb uses Machine Learning to Detect Host Preferences - Airbnb Engineering & Data Science","['host', 'model', 'requests', 'search', 'request']","0","0","0",5.70,False
+688,0,"Tensorflow wins","['machine learning', 'machine', 'applications', 'ai', 'learning']","0","0","0",0.87,False
+689,0,"Behold.ai launches artificially intelligent medical software to find abnormalities faster","['ai', 'accuracy', 'ibm', 'error', 'algorithm']","0","0","0",1.40,False
+690,0,"Swarm A.I. Correctly Predicts the Kentucky Derby, Accurately Picking all Four Horses of the Superfecta at 540 to 1 Odds","['intelligence', 'four', 'made', 'researchers', 'answer']","0","0","0",3.78,False
+691,0,"What readers think about computer-generated texts","['generated', 'computer', 'study', 'written', 'text']","0","0","0",2.02,False
+692,0,"Facebook says 10K+ developers are building chatbots, analytics coming","['messenger', 'chatbots', 'facebook', 'bots', 'bot']","0","0","0",1.26,False
+693,0,"Amazon has a huge opportunity in grocery delivery","['amazon', 'opportunity', 'online', 'huge', 'business']","0","0","0",0.51,False
+694,0,"5 Unique Features Of Google Compute Engine That No IaaS Provider Could Match","['compute engine', 'google', 'compute', 'engine', 'announced']","0","0","0",0.17,False
+695,0,"Introducing Sign in with Slack - Slack Platform Blog","['slack', 'sign', 'team', 'user', 'app']","0","0","0",1.96,False
+696,0,"Stay focused with Google Calendar event notifications in your browser","['notifications', 'release', 'browser', 'launch', 'google']","0","0","0",0.51,False
+697,0,"Mobile marketing statistics 2016","['mobile', 'desktop', 'shows', 'marketing', 'media']","0","0","0",6.42,False
+698,0,"What SWAG will Google I/O 2016 attendees take home?","['android', 'google', 'device', 'vr', 'percent']","0","0","0",2.51,False
+699,0,"Google I/O 2016 Preview: A Chrome/Android merger? Project Tango? VR?","['google', 'android', 'play', 'os', 'chrome']","0","0","0",5.74,False
+700,0,"Will blockchain drive the fourth Industrial Revolution?","['machines', 'blockchain', 'data', 'commerce', 'network']","0","0","0",4.14,False
+701,0,"Largest IoT Event Kicks Off at Santa Clara Convention Center","['iot', 'event', 'world', 'well', 'including']","0","0","0",1.08,False
+702,0,"Welcome to GoogleBank, Facebook Bank, Amazon Bank, and Apple Bank - Enrique Dans","['bank', 'banks', 'tech', 'companies', 'apple']","0","0","0",1.71,False
+703,0,"Graph Capabilities with the Elastic Stack","['capabilities', 'related', 'preview', 'demo', 'python']","0","0","0",0.73,False
+704,0,"Introducing unlimited private repositories","['private', 'github', 'plan', 'plans', 'organization']","0","0","0",1.42,False
+705,0,"Google Now Posting Full OTA Images For Nexus Devices Alongside Factory Images","['images', 'full', 'devices', 'google', 'preview']","0","0","0",0.61,False
+706,0,"WhatsApp just released desktop apps for Mac and Windows","['desktop', 'app', 'apps', 'phone', 'mobile']","0","0","0",0.70,False
+707,0,"Ozlo The AI Chatbot Wants To Help You Find Coffee And Food","['ai', 'chatbots', 'facebook', 'said', 'bot']","0","0","0",2.86,False
+708,0,"Production Ready Jenkins 2.0 in Two Steps with Docker","['25', 'docker', '2016', 'log', 'script']","0","0","0",1.59,False
+709,0,"3Dprintler lets you order a 3D print via chatbot","['bot', 'search', 'engine', 'order', 'files']","0","0","0",3.12,False
+710,0,"From E-Commerce to Web 3.0: Let the Bots Do the Shopping","['web', 'commerce', 'context', 'search', 'content']","0","0","0",3.60,False
+711,0,"From Insight-as-a-Service to insightful applications","['applications', 'data', 'insights', 'generation', 'action']","0","0","0",8.66,False
+712,0,"Rumor: Android VR Will Launch At I/O With Standalone Headset, Reference Appears In Unreal Engine","['vr', 'android', 'hardware', 'google', 'information']","0","0","0",1.87,False
+713,0,"IBM's Watson aims to make hospital stays suck a whole lot less","['ibm', 'helping', 'questions', 'care', 'year']","0","0","0",1.28,False
+714,0,"YouTube's New Messenger Means You'll Never Have to Leave YouTube","['video', 'friends', 'mobile', 'users', 'native']","0","0","0",1.38,False
+715,0,"Dial in with ease using the latest Google Calendar app for Android","['release', 'launch', 'google', 'updates', 'action']","0","0","0",0.22,False
+716,0,"What Millennials Want from a New Job","['job', 'jobs', 'employees', 'opportunities', 'generation']","0","0","0",2.65,False
+717,0,"Good to Great","['book', 'people', 'good', 'right', 'company']","0","0","0",0.30,False
+718,0,"The Real Lesson for Data Science That is Demonstrated by Palantir's Struggles","['palantir', 'data', 'data science', 'analysis', 'software']","0","0","0",5.15,False
+719,0,"Making Apache Spark Easier to Use in Java with Java 8 - Cloudera Engineering Blog","['java', 'function', 'lines', 'api', 'support']","0","0","0",1.32,False
+720,0,"The Gold Mine: A Novel of Lean Turnaround","['great', 'book', 'real', 'concept', 'reading']","0","0","0",0.97,False
+721,0,"Agile is Dead, Long Live Continuous Delivery - Gradle","['agile', 'software', 'development', 'teams', 'word']","0","0","0",2.93,False
+722,0,"The future of machine learning: 5 trends to watch around algorithms, cloud, IoT, and big data - GeekWire","['iot', 'said', 'data', 'algorithms', 'cloud']","0","0","0",1.66,False
+723,0,"The Art of the OKR","['goals', 'key', 'set', 'results', 'company']","0","0","0",5.21,False
+724,0,"tins ::: Rick Klau's weblog","['google', 'lab', 'startup', 'public', 'key']","0","0","0",1.55,False
+725,0,"How Google sets goals: OKRs - GV Library","['google', 'goals', 'key', 'company', 'present']","0","0","0",1.22,False
+726,0,"The bizarre beasts living in Romania's poison cave","['found', 'years', 'says', 'similar', 'million']","0","0","0",6.49,False
+727,0,"The Blockchain is the new Google","['blockchain', 'trust', 'internet', 'web', 'transactions']","0","0","0",4.82,False
+728,0,"The future of SaaS hosted git repository pricing","['pricing', 'free', 'github', 'com', 'price']","0","0","0",3.10,False
+729,0,"Announcing SyntaxNet: The World's Most Accurate Parser Goes Open Source","['accuracy', 'neural', 'car', 'possible', 'word']","0","0","0",3.52,False
+730,0,"Confused by blockchains? Revolution vs Evolution","['bitcoin', 'industry', 'blockchain', 'tools', 'financial']","0","0","0",8.23,False
+731,0,"Report: Google I/O to focus on voice search as Google preps 'Chirp' competitor to Amazon Echo","['google', 'voice', 'conference', 'launch', 'device']","0","0","0",0.87,False
+732,0,"Google Cloud Goes to the Farm","['data', 'google', 'cloud', 'google cloud', 'store']","0","0","0",2.47,False
+733,0,"Amazon just released a Dash button for AWS IoT","['amazon', 'aws', 'button', 'iot', 'services']","0","0","0",1.10,False
+734,0,"Google releases keyboard for the iPhone with built-in search features","['iphone', 'search', 'google', 'web', 'features']","0","0","0",0.41,False
+735,0,"Clarifying the uses of artificial intelligence in the enterprise","['intelligence', 'machine', 'ai', 'machine learning', 'learning']","0","0","0",4.28,False
+736,0,"JavaScript Conquered the Web. Now It's Taking Over the Desktop","['javascript', 'desktop', 'developers', 'web', 'github']","0","0","0",3.17,False
+737,0,"University of Washington partners with Disney to develop cheap touch-sensitive paper - GeekWire","['paper', 'university', 'tag', 'room', 'technology']","0","0","0",0.93,False
+738,0,"It's coming! The Internet of Eyes will allow objects to see","['visual', 'vision', 'data', 'objects', 'internet']","0","0","0",4.05,False
+739,0,"Quip now connects with Slack to help teams kick more butt across the globe","['slack', 'teams', 'work', 'structure', 'ideas']","0","0","0",1.54,False
+740,0,"Strategyzer | Business Model Generation - Book","['business', 'model', 'generation', 'university', 'book']","0","0","0",1.94,False
+741,0,"Number plate recognition with Tensorflow","['network', 'output', 'number', 'training', 'image']","0","0","0",6.60,False
+742,0,"Anders Hejlsberg on Modern Compiler Construction (Channel 9)","['great', 'meet', 'pretty', 'needs', 'chat']","0","0","0",0.54,False
+743,0,"Amazon open-sources its own deep learning software, DSSTNE","['amazon', 'deep learning', 'deep', 'open source', 'learning']","0","0","0",1.30,False
+744,0,"Talking Payments - Article Profile - 93% of banks expect video to boost satisfaction","['video', 'banking', 'banks', 'customer', 'service']","0","0","0",0.66,False
+745,0,"Artem vs. Predator","['vision', 'image', 'box', 'let', 'black']","0","0","0",6.46,False
+746,0,"Google just open sourced something called 'Parsey McParseface,' and it could change AI forever","['language', 'google', 'ai', 'natural', 'model']","0","0","0",1.12,False
+747,0,"Google may unveil Android VR headset at I/O conference","['vr', 'android', 'google', 'week', 'powerful']","0","0","0",0.83,False
+748,0,"Google I/O 2016 preview: Android N, Android VR, Project Chirp, Play Store on Chromebooks and more!","['google', 'android', 'vr', 'os', 'chrome']","0","0","0",5.80,False
+749,0,"Time Pressure: Behavioral Science Considerations for Mobile Marketing","['mobile', 'decision', 'consider', 'likely', 'information']","0","0","0",4.38,False
+750,0,"Optimizing Elasticsearch Searches","['filters', 'filter', 'query', 'search', 'documents']","0","0","0",7.77,False
+751,0,"Google I/O 2016 Preview: Machine Learning, Virtual Reality And Android N - ARC","['google', 'android', 'reality', 'apps', 'virtual']","0","0","0",3.28,False
+752,0,"SyntaxNet in context: Understanding Google's new TensorFlow NLP model | Blog","['model', 'accuracy', 'models', 'neural', 'words']","0","0","0",4.93,False
+753,0,"Get ready for Google I/O 2016","['live', 'google', 'real time', 'hours', 'code']","0","0","0",1.98,False
+754,0,"The #digital upstarts offering app-only #banking for smartphone users #benchmark","['account', 'banking', 'current', 'offer', 'bank']","0","0","0",4.08,False
+755,0,"New JavaScript library brings Java to browsers without applets","['java', 'native', 'javascript', 'browser', 'js']","0","0","0",1.61,False
+756,0,"Here's proof that Google is getting serious about battling Facebook in a key area","['google', 'vr', 'sales', 'team', 'operations']","0","0","0",1.29,False
+757,0,"Amazon now has a programmable Dash Button for the IoT","['button', 'aws', 'amazon', 'iot', 'may']","0","0","0",1.56,False
+758,0,"New Sessions Added To Google I/O 2016 Schedule","['hours', 'added', 'google', 'project', 'events']","0","0","0",0.61,False
+759,0,"Python Is Not Java (dirtSimple.org)","['python', 'java', 'code', 'function', 'write']","0","0","0",4.92,False
+760,0,"How to Build and Publish ES6 Modules Today, with Babel and Rollup","['js', 'node', 'library', 'node js', 'main']","0","0","0",2.02,False
+761,0,"Automatic lays off 28% of its workforce, aims for profitability in 2017","['company', 'said', 'car', 'consumer', 'platform']","0","0","0",1.98,False
+762,0,"9 Useful Apps for Product Managers - Product Hunt","['product', 'useful', 'try', 'apps', 'great']","0","0","0",0.26,False
+763,0,"UK shows off prototype of digital iPhone driving license using Apple's Wallet app","['wallet', 'apple', 'app', 'cards', 'iphone']","0","0","0",0.84,False
+764,0,"The 'impossible' is now a reality","['space', 'app', 'said', 'going', 'technology']","0","0","0",0.88,False
+765,0,"Prototypal Object-Oriented Programming using JavaScript","['object', 'javascript', 'class', 'based', 'objects']","0","0","0",9.32,False
+766,0,"Smart Managers Don't Compare People to the "Average","['average', 'think', 'people', 'really', 'kind']","0","0","0",13.66,False
+767,0,"Neuroscience confirms that to be truly happy, you will always need something more","['goals', 'says', 'human', 'always', 'means']","0","0","0",1.69,False
+768,0,"8 things to expect from Google's biggest event of the year","['android', 'google', 'vr', 'chrome', 'os']","0","0","0",4.45,False
+769,0,"Blockchain open sources Thunder network, paving the way for instant bitcoin transactions","['bitcoin', 'blockchain', 'transactions', 'wallet', 'network']","0","0","0",2.20,False
+770,0,"Big data analysis to transform insurance industry - FT.com","['data', 'insurance', 'property', 'customers', 'big']","0","0","0",2.81,False
+771,0,"Face recognition app taking Russia by storm may bring end to public anonymity","['face', 'social', 'technology', 'recognition', 'app']","0","0","0",2.70,False
+772,0,"Cool URIs don't change","['document', 'server', 'name', 'change', 'web']","0","0","0",9.50,False
+773,0,"Brand Marketing is a Growth Hack. Here's the Recipe","['brand', 'growth', 'talk', 'marketing', 'world']","0","0","0",4.27,False
+774,0,"Google I/O: Expect A.I., virtual reality","['google', 'conference', 'said', 'virtual', 'reality']","0","0","0",2.86,False
+775,0,"AI learns and recreates Nobel-winning physics experiment","['ai', 'research', 'ways', 'parameters', 'could']","0","0","0",1.40,False
+776,0,"Amazon goes open source with machine-learning tech, competing with Google's TensorFlow - GeekWire","['amazon', 'open source', 'open', 'learning', 'source']","0","0","0",0.96,False
+777,0,"A Major Law Firm Will Soon Be Using A Robotic Lawyer","['resource', 'using', 'ai', 'capabilities', 'answer']","0","0","0",0.94,False
+778,0,"Transforming life insurance with design thinking","['customer', 'life', 'insurance', 'digital', 'design']","0","0","0",10.42,False
+779,0,"Google unveils a gigapixel 'Art Camera' that lets you view paintings down to the brushstrokes","['images', 'google', 'view', 'close', 'online']","0","0","0",1.74,False

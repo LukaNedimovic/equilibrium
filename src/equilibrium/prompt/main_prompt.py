@@ -7,51 +7,112 @@ import sys
 
 class MainPrompt(Prompt):
     def __init__(self, prompt_name: str):
+        """
+        Initialize a new instance of MainPrompt.
+    
+        Parameters
+        ----------
+        - prompt_name : str
+            Name of the MainPrompt to be created. 
+        """
         super().__init__(prompt_name)
 
-        self.radio_selection = 1
+        self.radio_selection = 1 # Current radio button selection
         self.radio_selection_size = len(self.data["OPTIONS"])
 
-        self.radio_selection_function = {1: self.login, 2: self.sign_up, 3: self.exit}
+
+        # Functionality associated with each option
+        # Upon hitting "ENTER", object calls one of the associated functions.
+        self.radio_selection_function = {1: self.login, 
+                                         2: self.sign_up, 
+                                         3: self.exit}
+        
+        # There is no set-in-stone next prompt,
+        # since it only matters after choosing a singular option
         self.next_prompt = None
 
 
     def show(self):
-        ui = open(self.ui_path, encoding="utf8")
+        """
+        Show the current state of prompt.
+        """
+        ui = open(self.ui_path, encoding="utf8") # Open the User Interface
         lines = ui.readlines()
-        for line in lines:
+        
+        for line in lines: # Render prompt line by line
+            # This format string is just a little cheat code.
+            # It's used to create string with number among ().
+            # For example, it's creates: (1), (2), (3)...
             if f"({self.radio_selection})" in line:
-                line = bold(line, start=1, end=len(line)-2)    
+                # Bold the selection
+                line = bold(line, start=1, end=len(line)-2)
+                
             print(line, end="")
 
-    def parse_keypress(self, key) -> int:
-        response = -1 
+    def parse_keypress(self, key: str) -> str:
+        """
+        Parse keypress hit while the SignUpPrompt was present.
+        
+        Parameters
+        ----------
+        key : str
+            Key pressed while the SignUpPrompt was present - to be parsed.
+        
+        Returns
+        -------
+        str:
+            Response to the main loop.
+            The only possible response, in right conditions,
+            is "load chosen option".
+        """
+        response = -1 # Default response
 
-        if key == "up":
-            self.radio_selection -= 1 
-            if self.radio_selection == 0:
-                self.radio_selection = self.radio_selection_size       
+        if key == "up": 
+            self.radio_selection -= 1 # Move radio selection for one upwards
+            if self.radio_selection == 0: # If there is nothing on top
+                # Move selection to the last possible field / on the end
+                self.radio_selection = self.radio_selection_size     
 
-        elif key == "down":
+        elif key == "down": # Similar to the "up" case
             self.radio_selection += 1
             if self.radio_selection == self.radio_selection_size + 1:
                 self.radio_selection = 1
 
-        elif key == "enter":
+        elif key == "enter": # Open chosen option's prompt
             self.next_prompt = self.radio_selection_function[self.radio_selection]
-            response = 1
+            response = "load chosen option"
             
         return response
 
-    # Loads Login prompt
-    def login(self):
+
+    def login(self) -> LoginPrompt:
+        """
+        Function to return a newly created LoginPrompt.
+        
+        Returns
+        -------
+        LoginPrompt:
+            New instance of LoginPrompt class.
+        """
         login_prompt = LoginPrompt("login")
         return login_prompt
     
-    # Loads Sign Up prompt
-    def sign_up(self):
+    
+    def sign_up(self) -> SignUpPrompt:
+        """
+        Function to return a newly created SignUpPrompt.
+        
+        Returns
+        -------
+        SignUpPrompt:
+            New instance of SignUpPrompt class.
+        """
         sign_up_prompt = SignUpPrompt("sign_up")
         return sign_up_prompt
     
-    def exit(self):
+    
+    def exit(self): 
+        """
+        Function that termines program's execution.
+        """
         sys.exit()

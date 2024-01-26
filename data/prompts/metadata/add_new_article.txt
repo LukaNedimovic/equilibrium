@@ -1,0 +1,4 @@
+TITLE:Add New Article
+OPTIONS:Title,Tags,Content,SUBMIT
+WIDTH:100
+HEIGHT:50

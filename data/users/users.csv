@@ -1,0 +1,2 @@
+id,username,password,name,surname,date_of_birth,residence,articles_created,articles_liked,articles_disliked,articles_saved
+0,admin,admin,Administrator,Administrator,"01.01.1993.",Novi Sad,"[]","[]","[]","[3]"

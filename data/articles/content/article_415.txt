@@ -1,0 +1,1 @@
+This module provides a way to enforce restrictions on user passwords by defining password policies. Overview A password policy can be defined with a set of constraints which must be met before a user password change will be accepted. Each constraint has a parameter allowing for the minimum number of valid conditions which must be met before the constraint is satisfied.

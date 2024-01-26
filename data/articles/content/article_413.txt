@@ -1,0 +1,1 @@
+The Better Exposed Filters module replaces the Views' default single- or multi-select boxes with radio buttons or checkboxes, respectively. Description fields and Select All/None links can be added to exposed filters to make for a better user experience. Views Filters is a powerful tool to refine the results returned by a given view.

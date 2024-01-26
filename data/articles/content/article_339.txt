@@ -1,0 +1,1 @@
+A collection of non-sequential, undifferentiated commit hashes is not a good way to refer to known releases of your software. It is a good idea to explicitly create releases each with a clear, meaningful version string. This makes packaging work much easier and also provides an easy to use mechanism for your users to get a specific version of your software.

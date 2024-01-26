@@ -1,0 +1,1 @@
+A standardized solution for building API's so that external clients can communicate with Drupal. Out of the box it aims to support anything Drupal Core supports and provides a code level API for other modules to expose their features and functionality. It provide Drupal plugins that allow others to create their own authentication mechanisms, request formats, and response formats.

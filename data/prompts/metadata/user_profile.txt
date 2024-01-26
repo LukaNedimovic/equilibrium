@@ -1,0 +1,4 @@
+TITLE:User Profile
+OPTIONS:Add New Article,Search Articles,My Articles,Saved Articles,Exit
+WIDTH:100
+HEIGHT:50

@@ -1,0 +1,1 @@
+The Authcache module offers page caching for both anonymous users and logged-in authenticated users. This allows Drupal/PHP to only spend 1-2 milliseconds serving pages, greatly reducing server resources. Please note that enabling authenticated user caching will require modifying how your user-customized content displays on your pages.
