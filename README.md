@@ -2,6 +2,8 @@
 
 Equilibrium is an <b> "Article Management System" </b>, created as a little project for "Scripting Languages" course (Faculty of Sciences, University of Novi Sad).
 
+ℹ️ Dataset used in final model can be found <a href="https://www.kaggle.com/datasets/gspmoreira/articles-sharing-reading-from-cit-deskdrop"> here </a>.
+
 <h2> 📥 Installation </h2>
 Installation is a very simple process:
 <ol>
