@@ -2,6 +2,17 @@
 
 Equilibrium is an <b> "Article Management System" </b>, created as a little project for "Scripting Languages" course (Faculty of Sciences, University of Novi Sad).
 
+<h2> 📥 Installation </h2>
+Installation is a very simple process:
+<ol>
+  <li>
+    Clone the repository using: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<code>git clone https://github.com/LukaNedimovic/equilibrium</code>
+  </li>
+  <li>
+    Run the following to install dependencies: <code>pip install -r requirements.txt</code>
+  </li>
+</ol>
+
 <h2> 🔥 Motivation </h2>
 
   <ul>
