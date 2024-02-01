@@ -1,29 +1,35 @@
+# Utility functions
+from utils.keypress_detector import capture_keypress, exit
+from utils.formatting        import clear_screen
+import os
 import time
 
-import numpy as np  
-
-from utils.keypress_detector import capture_keypress, exit
-from utils.formatting import clear_screen
-
-from prompt.main_prompt import MainPrompt
-from prompt.login_prompt import LoginPrompt
-from prompt.user_profile_prompt import UserProfilePrompt
+# Prompts
+from prompt.main_prompt            import MainPrompt
+from prompt.login_prompt           import LoginPrompt
+from prompt.user_profile_prompt    import UserProfilePrompt
 from prompt.add_new_article_prompt import AddNewArticlePrompt
-from prompt.search_prompt import SearchPrompt
+from prompt.search_prompt          import SearchPrompt
 
-from user.users import Users
+from user.users import Users # Users wrapper
 
-from article.articles import Articles
-from article.article_listing import ArticleListing
+# Articles
+from article.articles        import Articles        # Articles wrapper
+from article.article_listing import ArticleListing 
 
+# Model
 from model.model import Model
+import numpy as np            # Math 
 
-import os
+# Loading paths from .env file
 from dotenv import load_dotenv
-load_dotenv()
-
 from pathlib import Path
+
+load_dotenv() # Loads all the paths necessary
+
+# Gets the current working directory. Every other path is concatenated to it. 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
 
 PATH_USERS_DATA     = os.getenv("PATH_USERS_DATA")
 PATH_USERS_DATA_CSV = os.getenv("PATH_USERS_DATA_CSV")
@@ -31,6 +37,7 @@ def load_users():
     """
     Parses user data from files and loads it into the Users wrapper instance.
     """
+    
     global users 
     users = Users(path_users_data=PROJECT_ROOT / PATH_USERS_DATA_CSV)
     users.load()
@@ -38,6 +45,7 @@ def load_users():
     global session
     session = None # In the beggining, there is no active session (User)
 
+    # Possible responses from UserProfilePrompt
     global USER_PROFILE_RESPONSES
     USER_PROFILE_RESPONSES = ["Add New Article",
                               "Search Articles",
@@ -46,6 +54,7 @@ def load_users():
                               "Platform Statistics (Interactions)",
                               "Platform Statistics (Tags)",
                               "Exit"]
+
 
 PATH_ARTICLES_CONTENT  = os.getenv("PATH_ARTICLES_CONTENT")
 PATH_ARTICLES_METADATA = os.getenv("PATH_ARTICLES_METADATA")
@@ -58,14 +67,15 @@ def load_articles():
     articles = Articles(path_articles_content=PROJECT_ROOT / PATH_ARTICLES_CONTENT,
                         path_articles_metadata=PROJECT_ROOT / PATH_ARTICLES_METADATA)
     
-    articles.load()
+    articles.load()        # Loads all the created articles into a wrapper object
     
+    # Possible responses from an article shown
     global ARTICLE_RESPONSES
-    ARTICLE_RESPONSES = ["like", 
-                         "dislike", 
-                         "recommend", 
-                         "comment", 
-                         "save"]
+    ARTICLE_RESPONSES = ["Like", 
+                         "Dislike", 
+                         "Recommend", 
+                         "Comment", 
+                         "Save"]
 
 
 PATH_TFIDF_VECTORIZER          = os.getenv("PATH_TFIDF_VECTORIZER")
@@ -75,6 +85,7 @@ def load_model():
     """
     Loads TF-IDF model that is used for recommending similar articles.
     """
+    
     global model
     model = Model(path_tfidf_vectorizer=PROJECT_ROOT / PATH_TFIDF_VECTORIZER,
                   path_tfidf_matrix=PROJECT_ROOT / PATH_TFIDF_MATRIX,
@@ -83,8 +94,9 @@ def load_model():
 
 def setup():
     """
-    Collection of all other auxiliary functions to be ran.
+    Loads all the data needed for proper functioning of the program.
     """
+    
     load_users()    # Load users into an "Users" wrapper
     load_articles() # Load articles into an "Articles" wrapper
     load_model()    # Load TF-IDF model, used for recommendation

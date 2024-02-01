@@ -44,7 +44,7 @@ class User:
             self.articles_saved = []
             
         
-    def __str__(self):
+    def __str__(self) -> str:
         return (
             f"{self.id},"
             f"{self.username},"
@@ -60,7 +60,7 @@ class User:
             f"\n"
         )
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return self.__str__()
     
     def to_csv_row(self) -> str:

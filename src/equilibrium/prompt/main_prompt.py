@@ -51,12 +51,12 @@ class MainPrompt(Prompt):
 
     def parse_keypress(self, key: str) -> str:
         """
-        Parse keypress hit while the SignUpPrompt was present.
+        Parse keypress hit while the MainPrompt was present.
         
         Parameters
         ----------
         key : str
-            Key pressed while the SignUpPrompt was present - to be parsed.
+            Key pressed while the MainPrompt was present - to be parsed.
         
         Returns
         -------
@@ -87,12 +87,12 @@ class MainPrompt(Prompt):
 
     def login(self) -> LoginPrompt:
         """
-        Function to return a newly created LoginPrompt.
+        Function to return a newly created MainPrompt.
         
         Returns
         -------
         LoginPrompt:
-            New instance of LoginPrompt class.
+            New instance of MainPrompt class.
         """
         login_prompt = LoginPrompt("login")
         return login_prompt
@@ -100,12 +100,12 @@ class MainPrompt(Prompt):
     
     def sign_up(self) -> SignUpPrompt:
         """
-        Function to return a newly created SignUpPrompt.
+        Function to return a newly created MainPrompt.
         
         Returns
         -------
         SignUpPrompt:
-            New instance of SignUpPrompt class.
+            New instance of MainPrompt class.
         """
         sign_up_prompt = SignUpPrompt("sign_up")
         return sign_up_prompt

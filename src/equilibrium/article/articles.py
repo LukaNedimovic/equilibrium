@@ -1,44 +1,61 @@
-from article.article import Article
-from user.user import User
+import numpy as np
+import matplotlib.pyplot as plt
 
 from utils.data_wrapper import DataWrapper
 from utils.parser import parse_csv, write_line_csv
+import os 
+import ast 
 
-import ast # Literal evaluation
+from article.article import Article
+from user.user import User
 
-import os
-
-import matplotlib.pyplot as plt
-import numpy as np
+from typing import Tuple
 
 class Articles:
     def __init__(self, 
-                 path_articles_content: str = "", 
+                 path_articles_content:  str = "", 
                  path_articles_metadata: str = ""):
-        self.path_articles_content  = path_articles_content
-        self.path_articles_metadata = path_articles_metadata
+        """
+        Creates an instance of Articles wrapper.
+        """
         
-        self.articles = []
+        self.path_articles_content  = path_articles_content   # Content folder
+        self.path_articles_metadata = path_articles_metadata  # Metadata file
+        
+        self.articles = [] # List of all articles as objects
         
     
     def __getitem__(self, key):
+        # If key is an integer, then retrieve the article with given ID
         if isinstance(key, int):    
             for article in self.articles:
                 if article.id == key:
                     return article
-            return None
+            return None # Return `None` if the given ID doesn't exist
         
-        if isinstance(key, str):
+        # If given a string, return the given property of every single article
+        elif isinstance(key, str):
             result = []
             for article in self.articles:
                 result.append(getattr(article, key))
             
-            return result
+            return result # Properties concatenated
+    
     
     def __setitem__(self, id: int, new_value: Article):
+        """
+        Sets a new article, given ID
+        """
         self.articles[id] = new_value
        
-    def __len__(self):
+        
+    def __len__(self) -> int:
+        """
+        Returns
+        -------
+        int
+            Total number of articles inside a wrapper.
+        """
         return len(self.articles)
        
     
@@ -59,12 +76,16 @@ class Articles:
         ----------
         article : Article
             New article to be appended to the end of the list.
-
         """
+        
         self.articles.append(article)
         
     
     def load(self):
+        """
+        Loads articles into wrapper.
+        """
+        
         print("[Articles Wrapper]: Starting to load articles.")
         articles_metadata_parsed  = parse_csv(self.path_articles_metadata)
         articles_metadata_wrapped = DataWrapper(articles_metadata_parsed) 
@@ -104,6 +125,7 @@ class Articles:
             if title[-1] != '"':
                 title = title + '"'
 
+            # Literally evaluate everything
             author_id = ast.literal_eval(author_id) 
             tags = ast.literal_eval(tags)
             likes = ast.literal_eval(likes)
@@ -126,9 +148,19 @@ class Articles:
             self.append(new_article)
             
         print("[Articles Wrapper]: Articles successfully loaded.")
-        
-        
+
+
     def show_platform_statistics_interactions(self, num_users: int = 1):
+        """
+        Shows total platform statistics.
+        
+        Parameters
+        ----------
+        num_users : int
+            Number of users on the platform. 
+            Needs to be passed from User wrapper.
+        """
+        
         all_likes    = sum([article.likes    for article in self.articles])
         all_dislikes = sum([article.dislikes for article in self.articles])
         all_views    = sum([article.views    for article in self.articles])
@@ -151,6 +183,18 @@ class Articles:
         
         
     def show_platform_statistics_tags(self, keywords: list = []):
+        """
+        Shows tags distribution on platform.
+        Only available for Admin account.
+
+        Parameters
+        ----------
+        keywords : list, optional
+            List of keywords (tags).
+        """
+        
+        
+        # Counts each keyword present in all the articles
         keywords_cnt = {}
         for article in self.articles:
             for tag in article.tags:
@@ -158,10 +202,13 @@ class Articles:
                     keywords_cnt[tag] = 1
                 else:
                     keywords_cnt[tag] += 1
-                        
+                    
+        # Sorts the keywords and swaps them
         keywords_cnt_sorted = sorted(keywords_cnt.items(), key=lambda x: x[1], reverse=True)[:20]
         tags, values = zip(*keywords_cnt_sorted)
         
+        
+        # Plotting part
         plt.barh(tags, values, color='skyblue')
         
         plt.xlabel('Frequency')
@@ -175,48 +222,116 @@ class Articles:
         
         
     def like(self, article_id: int, user: User) -> bool:
-        target_article = self.articles[article_id]
+        """
+        Likes an article, whose ID is `article_id`, by `user`.
         
-        if article_id not in user.articles_liked:
-            if article_id in user.articles_disliked:
+        Parameters
+        ----------
+        article_id : int
+            ID of an article that is being liked.
+        user : User
+            User object that is liking the article.
+            
+            
+        Returns
+        -------
+        bool
+            If article is successfully liked - return True and increment
+            like count on screen.
+            Otherwise, return False (`user` has already liked this article).
+        """
+        
+        target_article = self.articles[article_id] # Get the target article
+        
+        if article_id not in user.articles_liked:     # If article is not liked
+            if article_id in user.articles_disliked:  # Remove from disliked
                 user.articles_disliked.remove(article_id)
                 target_article.dislikes -= 1
                 
-            user.articles_liked.append(article_id)
+            # Like the article
+            user.articles_liked.append(article_id) 
             target_article.likes += 1
             
-            return True
+            return True # Article has a new like
 
-        return False
+        return False # Nothing has changed - article is already liked
     
     
     def dislike(self, article_id: int, user: User) -> bool:
-        target_article = self.articles[article_id]
+        """
+        Dislikes an article, whose ID is `article_id`, by `user`.
         
-        if article_id not in user.articles_disliked:
-            if article_id in user.articles_liked:
+        Parameters
+        ----------
+        article_id : int
+            ID of an article that is being disliked.
+        user : User
+            User object that is disliking the article.
+            
+        Returns
+        -------
+        bool
+            If article is successfully disliked - return True and increment
+            dislike count on screen.
+            Otherwise, return False (`user` has already liked this article).
+        """
+        
+        target_article = self.articles[article_id] # Get the target article 
+        
+        if article_id not in user.articles_disliked: # If article is not disliked
+            if article_id in user.articles_liked:    # Remove from liked
                 user.articles_liked.remove(article_id)
                 target_article.likes -= 1
                 
+            # Dislike the article
             user.articles_disliked.append(article_id)
             target_article.dislikes += 1
             
-            return True
+            return True # Article has a new dislike
         
-        return False
+        return False # Nothing has changed - article is already disliked
     
     
     def save(self, article_id: int, user: User) -> bool:
+        """
+        Saves an article, whose ID is `article_id`, by `user`.
+        
+        Parameters
+        ----------
+        article_id : int
+            ID of an article that is being saved.
+        user : User
+            User object that is saving the article.
+            
+        Returns
+        -------
+        bool
+            If article is successfully saved - return True
+            Otherwise, return False (`user` has already saved this article).
+        """
+        
         if article_id not in user.articles_saved:
-            user.articles_saved.append(article_id)
+            user.articles_saved.append(article_id) 
             return True
         
         return False
     
     
     def add_new_article(self, new_article_data: dict):
+        """
+        Creates a new article on platform.
+        
+        Parameters
+        ----------
+        new_article_data : dict
+            Complete data needed to create a new instance of Article class.
+        """
+        
+        # New article's id is the maximum article's id + 1, 
+        # so no two articles can possible have the same id
         new_article_id = max(self.articles, key=lambda article: article.id).id + 1
         
+        # Creates a new Article instance
         new_article = Article(id=new_article_id,
                               title=new_article_data["title"],
                               tags=new_article_data["tags"],
@@ -226,8 +341,11 @@ class Articles:
                               content=new_article_data["content"],
                               formatted=True)
         
+        # Adds it into the wrapper
         self.articles.append(new_article)
         
+        
+        # Tries writing the data (should go smoothly)
         try:
             content_path = self.path_articles_content / f"article_{new_article_id}.txt"
             content_file = open(content_path, "w", encoding="utf8")
@@ -239,23 +357,41 @@ class Articles:
             print(f"[ARTICLE CONTENT SAVING ERROR] {err}: Could not write down content for newly created file")
         
         
+        # Writes a line into metadata .csv file about a new article created
         write_line_csv(self.path_articles_metadata, new_article.to_metadata_row())
     
     
     def remove_article(self, article_id: int):
+        """
+        Given ID, removes the article from the wrapper and all data related to
+        it from the storage.
+        
+        Parameters
+        ----------
+        article_id : int
+            ID of the article to be removed.
+        """
+        
         found_idx = 0
         for idx, article in enumerate(self.articles):
             if article.id == article_id:
-                found_idx = idx
+                found_idx = idx # Article has been found on index `idx`
                 break
             
-        self.articles.pop(found_idx)
+        self.articles.pop(found_idx)     # Remove the article from the wrapper
         
-        self.write_metadata()
-        self.destroy_article(article_id)
+        self.write_metadata()            # Rewrite metadata of all articles
+        self.destroy_article(article_id) # Clear all article data from storage
         
     
-    def get_title_text_pairs(self) -> list:
+    def get_title_text_pairs(self) -> list[Tuple[str, str]]:
+        """
+        Returns
+        -------
+        list
+            List of (title, text) pairs for each article in the wrapper.
+        """
+        
         result = []
         for article in self.articles:
             result.append((article.title, article.content))
@@ -264,6 +400,9 @@ class Articles:
         return result
     
     def write_metadata(self):
+        """
+        Writes metadata of current article wrapper into desiganted file.
+        """
         with open(self.path_articles_metadata, "w", encoding="utf8") as metadata_file:
             metadata_file.write("id,author_id,title,tags,likes,dislikes,views,reading_time,formatted\n")
             for article in self.articles:    
@@ -271,6 +410,11 @@ class Articles:
     
         
     def destroy_article(self, id: int):
+        """
+        Deletes the article from storage.
+        """
+        
+        # Path of the article to be deleted
         content_path = self.path_articles_content / f"article_{id}.txt"
         
         try:

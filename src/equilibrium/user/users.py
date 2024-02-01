@@ -11,6 +11,7 @@ class Users:
         """
         Creates an instance of Users.
         """
+        
         self.path_users_data = path_users_data
         
         self.users = []
@@ -29,8 +30,8 @@ class Users:
         The point of this loading is to optimize time and space ->
         it is better to have everything loaded once (if not too large) and then
         query it when the time is needed.
-        
         """
+        
         print("[Users Wrapper]: Starting to load users.")
         # Parse CSV file containing user data, and place the data inside wrapper
         user_data_parsed = parse_csv(self.path_users_data) 
@@ -69,6 +70,7 @@ class Users:
             Returns complete User object if user is found.
             Otherwise, returns None.
         """
+        
         found_user = None
         for user in self.users:
             if (user.username == username and user.password == password):
@@ -94,6 +96,7 @@ class Users:
         bool
             Whether the given username already exists in the database.
         """
+        
         return any((user.username == username) for user in self.users)
 
     def sign_up_user(self, user_data: dict, data_path: str) -> bool:
@@ -109,8 +112,8 @@ class Users:
         -------
         bool
             Whether the user has been successfully signed up.
-
         """
+        
         # print(user_data) 
         
         # Check whether the given username already exists in the database
@@ -130,6 +133,10 @@ class Users:
         
         
     def rewrite_csv(self):
+        """
+        Rewrites completely users metadata .csv file.
+        """
+        
         column_names = None
         with open(self.path_users_data, "r", encoding="utf8") as users_csv:
             column_names = users_csv.readline()
@@ -140,7 +147,20 @@ class Users:
             for user in self.users:
                 users_csv.write(user.to_csv_row())
                 
+                
     def add_new_article(self, new_article: Article, user_id: int):
+        """
+        Adds a new article to the respectable user, then updates the user
+        metadata .csv file.
+
+        Parameters
+        ----------
+        new_article : Article
+            New article created.
+        user_id : int
+            ID of user who created the article.
+        """
+        
         self.users[user_id].articles_created.append(new_article.id)
         self.rewrite_csv()
         

@@ -1,33 +1,46 @@
+import numpy as np # Math
+
 from sklearn.metrics.pairwise import cosine_similarity      # Measuring the similarity
 from sklearn.feature_extraction.text import TfidfVectorizer # Vectorizing the articles
+from sklearn.preprocessing import normalize                 # Normalization
 from nltk.corpus import stopwords # Removing stopwords (preprocessing)
-from joblib import dump, load
 
 from scipy.sparse import csr_matrix # Typehinting
 
-import numpy as np # Math
+from article.articles import Articles # Articles wrapper
 
-from article.articles import Articles
+from joblib import dump, load         # Saving data onto the disk
 
-from sklearn.preprocessing import normalize
 
 class Model:
     def __init__(self, 
-                 path_tfidf_vectorizer, 
-                 path_tfidf_matrix, 
-                 path_tfidf_cosine_similarities):
-    
+                 path_tfidf_vectorizer:          str, 
+                 path_tfidf_matrix:              str, 
+                 path_tfidf_cosine_similarities: str):
+        """
+        Creates an instance of Model used for article recommendations.
+        Model is implementing a TF-IDF vectorizer, combined with
+        cosine similarity.
+
+        Parameters
+        ----------
+        path_tfidf_vectorizer : str
+            Path to TF-IDF vectorizer.
+        path_tfidf_matrix : TYPE
+            Path to TF-IDF file.
+        path_tfidf_cosine_similarities : TYPE
+            Path to cosine similarities file.
+        """
+        
         self.model_name = "Article TF-IDF MODEL"
     
         # Loading vectorizer
         try:    
             self.vectorizer = load(path_tfidf_vectorizer)    
             self.features =  np.array(self.vectorizer.get_feature_names_out()) 
+            
         except Exception as err:
             self.inform(f"[TF-IDF VECTORIZER LOADING ERROR]: {err}")
-        finally:
-            self.inform("Vectorizer loaded sucessfully.")
-
 
         # Loading TF-IDF matrix
         try: 
@@ -35,18 +48,12 @@ class Model:
         except Exception as err:
             # Matrix can not be loaded, most likely because it does not exist
             self.inform(f"[TF-IDF MATRIX LOADING ERRROR]: {err}")
-        finally:
-            self.inform("Matrix loaded successfully.")
-
 
         # Loading TF-IDF cosine similarities
         try:
             self.cosine_similarities = load(path_tfidf_cosine_similarities)
         except Exception as err:
             self.inform(f"[TF-IDF COSINE SIMILARITIES LOADING ERROR]: {err}") 
-        finally:
-            self.inform("TF-IDF Cosine similarities loaded successfully.")
-
         
         self.num_articles, self.num_features = self.tfidf_matrix.shape
 
@@ -63,7 +70,25 @@ class Model:
         self.tfidf_matrix[pos] = val
         
     
-    def recommend(self, article_id: int, quantity: int = 5):    
+    def recommend(self, article_id: int, quantity: int = 5) -> list:    
+        """
+        Recommends top-`quantity` articles similar to the article
+        with id `article-id`.
+
+        Parameters
+        ----------
+        article_id : int
+            Article whose similar articles are to be found.
+        quantity : int, optional
+            The number of articles to recommend. The default is 5.
+
+        Returns
+        -------
+        list
+            List of top-`quantity` similar articles.
+
+        """
+        
         # Get the indices of the top `quantity` most similar articles 
         # It is also needed to remove the article itself
         most_similar_ids = np.argsort(self.cosine_similarities[article_id])[-quantity-1:-1][::-1]
@@ -71,7 +96,14 @@ class Model:
         return most_similar_ids
     
     
-    def calculate_similarities_keywords_article(self, keywords: list):
+    def calculate_similarities_keywords_article(self, keywords: list) -> list:
+        """
+        Returns
+        -------
+        list
+            List of the most similar articles, given certain keywords. 
+            Used for searching.
+        """
         keyword_vector = self.vectorizer.transform([' '.join(keywords)])
 
         # Calculate cosine similarity between the keyword vector and all article vectors
@@ -92,7 +124,26 @@ class Model:
     def search(self, 
                articles: Articles, 
                keywords: list, 
-               quantity: int = 5):
+               quantity: int = 5) -> list:
+        """
+        Search for top-`quantity` similar articles, given keywords.
+
+        Parameters
+        ----------
+        articles : Articles
+            All articles available on platform, loaded into a wrapper.
+        keywords : list
+            Keywords entered in search input box.
+        quantity : int, optional
+            The number of articles to be returned after searching. 
+            The default is 5.
+            
+        Returns
+        -------
+        list:
+            Search result.
+        """
+        
         similarities = self.calculate_similarities_keywords_article(keywords)
 
         # Get the top N recommendations
@@ -108,25 +159,62 @@ class Model:
     
     
     def refit(self, articles: Articles):
+        """
+        Refits the model by creating a new one and retraining it, 
+        given the new articles wrapper.
+
+        Parameters
+        ----------
+        articles : Articles
+            Articles wrapper that has changed and needs to be fed into
+            the model, for it to be retrained.
+        """
+        
         self.create_new_model(articles=articles)
         
     
     def inform(self, text: str):
+        """
+        Utility function for easier communication.
+
+        Parameters
+        ----------
+        text : str
+            Text to be printed on screen.
+        """
+        
         print(f"[{self.model_name}]: {text}")
     
     
     def create_new_model(self, articles: Articles):
+        """
+        Creates a totally new model and saves it onto the disk.
+
+        Parameters
+        ----------
+        articles : Articles
+            Articles wrapper with all necessary data for training.
+        """
+        
         self.load_data(articles)
         
         self.create_model()
         self.fit()
-        # self.get_top_words()
         self.calculate_similarities()
         
         self.save()
         
         
     def load_data(self, articles: Articles):
+        """
+        Loads data into the model.
+        
+        Parameters
+        ----------
+        articles : Articles
+            Articles wrapper with all necessary data for training.
+        """
+        
         self.article_ids      = articles["id"]
         self.article_titles   = articles["title"]
         self.article_contents = articles["content"]
@@ -135,8 +223,15 @@ class Model:
         
         
     def create_model(self):
+        """
+        Creates a new TF-IDF model, used for article recommendation.
+        The model is also used for searching.
+        """
+        
+        # This is something to play with. 1000 works fine in this case.
         self.MAX_FEATURES = 1000
         
+        # A new instance of TfidfVectorizer
         self.vectorizer = TfidfVectorizer(analyzer='word',
                                       ngram_range=(1, 2),
                                       min_df=0.003,
@@ -146,6 +241,10 @@ class Model:
         
         
     def fit(self):
+        """
+        Train the model to fit onto the new data.
+        """
+        
         title_text_pairs = ((title + "" + content) 
                             for title, content in 
                             zip(self.article_titles, self.article_contents))
@@ -154,6 +253,11 @@ class Model:
         
         
     def get_top_words(self):
+        """
+        Returns top words for each article.
+        The number of words is discussable, but 5 worked well in this case.
+        """
+        
         self.tfidf_feature_names = np.array(self.vectorizer.get_feature_names_out())
         self.dense_tfidf_matrix = self.tfidf_matrix.toarray()
         
@@ -173,21 +277,19 @@ class Model:
         
         
     def calculate_similarities(self):
+        """
+        Calculates cosine similarity on model's tfidf matrix.
+        """
         self.normalized_tfidf_matrix = normalize(self.tfidf_matrix, norm='l2', axis=1)
         
         # Compute cosine similarity between articles
         self.cosine_similarities = cosine_similarity(self.normalized_tfidf_matrix)
-        
-        # Iterate over each article
-        for i in range(self.cosine_similarities.shape[0]):
-            # Get the indices of the top 5 most similar articles (excluding the article itself)
-            top_indices = np.argsort(self.cosine_similarities[i])[-6:-1][::-1]
-        
-            # Print the results for the current article
-            # print(f"Top 5 most similar articles to Article {i}: {top_indices}")
             
         
     def save(self):
+        """
+        Saves the model and other relevant data onto disk.
+        """
         dump(self.tfidf_matrix, "tfidf_matrix.joblib")
         dump(self.vectorizer, "tfidf_vectorizer.joblib")
         dump(self.cosine_similarities, "tfidf_cosine_similarities.joblib")

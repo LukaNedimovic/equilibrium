@@ -19,10 +19,11 @@ class ArticleListing:
             If this is true, it indicated that. 
             Will be useful when differentiating from where to delete an article.
         """
-        self.articles    = articles
-        self.show_delete = show_delete
+        
+        self.articles       = articles
+        self.show_delete    = show_delete
         self.saved_articles = saved_articles
-        self.show_stats = show_stats
+        self.show_stats     = show_stats
         
         self.radio_selection_row = 0
         self.radio_selection_col = 0
@@ -34,11 +35,22 @@ class ArticleListing:
         
     
     def show(self):
+        """
+        Renders an ArticleList.
+        """
+        
         for idx, article in enumerate(self.articles):
+            # In case there are invalid articles, just skip them
             if article is None:
                 continue
             
-            if idx == self.radio_selection_row:    
+            # If current row being rendered is selected
+            if idx == self.radio_selection_row:   
+                
+                # 0 - article button
+                # 1 - delete button
+                # 2 - statistics button
+                
                 if self.radio_selection_col == 0:
                     article.show_article_as_list_element(show_delete=self.show_delete,
                                                          show_stats=self.show_stats,
@@ -56,6 +68,7 @@ class ArticleListing:
                                                          bolded_delete=False,
                                                          bolded_stats=True)
             
+            # Otherwise, just show plain article
             else:
                 article.show_article_as_list_element(show_delete=self.show_delete,
                                                      show_stats=self.show_stats)

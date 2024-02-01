@@ -18,7 +18,7 @@ class LoginPrompt(Prompt):
         Parameters
         ----------
         - prompt_name : str
-            Name of the SignUpPrompt to be created. 
+            Name of the LoginPrompt to be created. 
         """
         super().__init__(prompt_name)
 
@@ -87,12 +87,12 @@ class LoginPrompt(Prompt):
 
     def parse_keypress(self, key: str):
         """
-        Parse keypress hit while the SignUpPrompt was present.
+        Parse keypress hit while the LoginPrompt was present.
         
         Parameters
         ----------
         key : str
-            Key pressed while the SignUpPrompt was present - to be parsed.
+            Key pressed while the LoginPrompt was present - to be parsed.
         """
         response = -1 # Default response
         

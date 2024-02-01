@@ -3,10 +3,8 @@ from textwrap3 import wrap
 from utils.formatting import make_line, bold
 
 import matplotlib.pyplot as plt
-import numpy as np
-
-import ast
-import time 
+import numpy as np # Math
+import ast         # Literal evaluation
 
 # For the ease of use, please DO NOT change these.
 # Dynamic rendering has not been implemented, so it's easier to leave it
@@ -34,7 +32,11 @@ class Article:
                  views:        int = 0,
                  reading_time: int = 0,
                  formatted:    bool = False):
+        """
+        Returns an instance of Article class.
+        """
         
+        # Setting the relevant data
         self.id           = id
         self.author_id    = author_id
         self.title        = title
@@ -46,6 +48,7 @@ class Article:
         self.reading_time = reading_time
         self.formatted    = formatted
         
+        # If reading time is not calculated - calculate it
         if self.reading_time == 0:
             words = self.content.split(" ")
             cnt = 0
@@ -56,6 +59,7 @@ class Article:
             self.reading_time = cnt / 300 # 300 wpm
         
         
+        # Literal-evaluate some useful properties in case they are strings
         if isinstance(self.tags, str):
             self.tags = ast.literal_eval(self.tags)  
         
@@ -68,23 +72,48 @@ class Article:
         if isinstance(self.views, str):
             self.views    = ast.literal_eval(views)
         
+        # Check if article is properly formatted
         self.well_formatted = self.check_formatting()
         
-        self.radio_selection = 0
+        self.radio_selection      = 0 # Starting index of radio selection
         self.radio_selection_size = 4 # Like, dislike, recommend, save
         
-        self.button_names = ["like", "dislike", "recommend", "save"]
+        self.button_names = ["Like", "Dislike", "Recommend", "Save"]
         
         
-    def __repr__(self):
-        return self.id
+    def __repr__(self) -> str:
+        """
+        Returns
+        -------
+        str
+            Unique representation of an article (its id).                                               
+        """
+        
+        return str(self.id)
 
 
-    def __str__(self):
+    def __str__(self) -> str:
+        """
+        Returns
+        -------
+        str
+            Short representation of an article that can be used for printing.
+
+        """
+        
         return f"[{self.id}]: {self.title}\n{self.content}"
     
     
-    def to_metadata_row(self):
+    def to_metadata_row(self) -> str:
+        """
+        Returns
+        -------
+        str
+            Complete description of an article, ready to be stored inside a
+            metadata .csv file.
+
+        """
+        
         return (f"{self.id},"
                 f"{self.author_id},"
                 f"{self.title},"
@@ -112,6 +141,7 @@ class Article:
             Whether the article's formatting can be presented, 
             as described above.
         """
+        
         lines = self.content.split("\n")
             
         return all(len(line) <= SCREEN_WIDTH for line in lines)
@@ -121,6 +151,7 @@ class Article:
         """
         Renders the article in the console - both the body and the buttons.
         """
+        
         self.show_article()
         self.show_buttons()
         
@@ -129,6 +160,7 @@ class Article:
         """
         Renders the article's body / the main part inside the console.
         """
+        
         text = None
         
         if self.formatted and self.well_formatted:
@@ -196,6 +228,7 @@ class Article:
         media - if you like what you are reading, you are going to like 
         something similar to it, most likely.
         """
+        
         LIKE_BUTTON      = (f"╔═══════════╗\n"
                             f"║ LIKE ({self.likes:2}) ║\n"
                             f"╚═══════════╝")
@@ -243,6 +276,22 @@ class Article:
                                      bolded_article: bool = False,
                                      bolded_delete:  bool = False,
                                      bolded_stats:   bool = False):
+        """
+        Renders article as an ArticleList element.
+
+        Parameters
+        ----------
+        show_delete : bool, optional
+            If set to `True`, will render "Delete" button.
+        show_stats : bool, optional
+            If set to `True`, will render "Statistics" button. 
+        bolded_article : bool, optional
+            If set to `True`, the "article" button is selected.
+        bolded_delete : bool, optional
+            If set to `True`, the "delete" button is selected.
+        bolded_stats : bool, optional
+            IF set to `True`, the "statistics" button is selected.
+        """
         
         horizontal_border_line = make_line("═", 140)
         border_line_top     = f"╔{horizontal_border_line}╗"
@@ -305,12 +354,14 @@ class Article:
         
     
     def show_statistics(self):
-        # Create a bar plot for likes, dislikes, and views
+        """
+        Create a bar plot for likes, dislikes, and views
+        """
+        
         fig, ax = plt.subplots(figsize=(8, 5))
         bar_width = 0.5
         bar_positions = np.arange(3)
 
-        
         ax.bar(bar_positions, [self.likes, self.dislikes, self.views],
                bar_width,
                color=["green", "red", "blue"])
@@ -361,4 +412,7 @@ class Article:
     
         
     def increment_views(self):
+        """
+        Increments views of given article by one.
+        """
         self.views += 1

@@ -1,8 +1,5 @@
 from .prompt import Prompt
 from .login_prompt import LoginPrompt
-from .placeholder_prompt import PlaceholderPrompt
-
-from utils.formatting import bold
 
 import os
 from dotenv import load_dotenv
@@ -75,12 +72,9 @@ class AddNewArticlePrompt(Prompt):
         
         label_row       = 0
         label_col_start = 0
-        label_cole_end  = 0
     
         input_row_start = 0
-        input_row_end   = 0
         input_col_start = 0
-        input_col_end   = 0
         
         input_row = 0
         input_col = 0
@@ -97,9 +91,7 @@ class AddNewArticlePrompt(Prompt):
             label_col_end   = 13
             
             input_row_start = 3
-            input_row_end = 3
             input_col_start = 17
-            input_col_end = 16
             
             input_row = 3
             input_col = input_col_start + self.buffer_position["Title"]
@@ -116,9 +108,7 @@ class AddNewArticlePrompt(Prompt):
             label_col_end   = 10
             
             input_row_start = 6
-            input_row_end = 6
             input_col_start = 17
-            input_col_end = 86
             
             input_row = 6
             input_col = input_col_start + self.buffer_position["Tags"]
@@ -141,9 +131,7 @@ class AddNewArticlePrompt(Prompt):
             label_col_end   = 14
             
             input_row_start = 10
-            input_row_end = 29
             input_col_start = 17
-            input_col_end = 136
             
             input_row = input_row_start + self.buffer_position["Content"][0]
             input_col = input_col_start + self.buffer_position["Content"][1]
@@ -250,19 +238,18 @@ class AddNewArticlePrompt(Prompt):
 
     def parse_keypress(self, key: str) -> str:
         """
-        Parse keypress hit while the SignUpPrompt was present.
+        Parses key hit while the AddNewArticlePrompt was present.
         
         Parameters
         ----------
         key : str
-            Key pressed while the SignUpPrompt was present - to be parsed.
+            Key pressed while the AddNewArticlePrompt was present - to be parsed.
         
         Returns
         -------
         str:
             Response to the main loop.
         """
-        
         
         if key == "enter":
             self.parse_entered_values()
@@ -326,11 +313,6 @@ class AddNewArticlePrompt(Prompt):
     
             return response # Return response to main loop
     
-
-    def load_placeholder(self):
-        placeholder_prompt = PlaceholderPrompt("placeholder", "data\\prompts\\ui\\placeholder.txt")
-        return placeholder_prompt
-    
     
     def tidy_up_key(self, key: str) -> str:
         """
@@ -347,6 +329,7 @@ class AddNewArticlePrompt(Prompt):
         str
             Tidied up key, easier to be used and to avoid ambiguities.
         """
+        
         key = key.lower()
         key = key.replace(" ", "_")
         
@@ -358,6 +341,7 @@ class AddNewArticlePrompt(Prompt):
         Collect entered values in the form.
         Pack them so they can be returned in a nice format.
         """
+        
         new_entered_values = {}
         
         self.buffer["Title"] = "".join(self.buffer["Title"])
